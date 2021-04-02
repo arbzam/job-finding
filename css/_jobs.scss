@@ -1,0 +1,248 @@
+.jobs-section {
+    background: $text-white;
+    width: 100%;
+}
+
+.recently-added-head {
+    font-family: $poppins;
+    font-weight: 600;
+    font-size: 22px;
+    text-transform: capitalize;
+    color: $text-black;
+}
+
+.position-relative {
+    position: relative !important;
+}
+
+.arrows {
+    position: absolute;
+    right: 0px;
+    top: 15px;
+    a {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        border-radius: 5px;
+        background: #4e007a;
+        color: $text-white;
+        font-size: 12px;
+        text-align: center;
+        line-height: 30px;
+        margin: 0 10px;
+        cursor: pointer;
+        transition: $transition;
+        &:hover {
+            background: $secondary;
+            box-shadow: $box-shadow;
+        }
+        &:last-of-type {
+            margin-right: 0;
+        }
+    }
+}
+
+.jobs-con {
+    max-width: 1515px;
+    margin: 30px auto;
+}
+
+.first-div {
+    .first-div-head {
+        font-family: $montserat;
+        font-weight: 700;
+        font-size: 16px;
+        text-transform: uppercase;
+        color: $text-black;
+        margin-bottom: 20px;
+    }
+    .first-div-para {
+        font-family: $montserat;
+        font-weight: 500;
+        font-size: 14px;
+        text-transform: capitalize;
+        color: $text-9;
+        margin-bottom: 20px;
+    }
+}
+
+.second-div {
+    .money {
+        margin-bottom: 10px;
+        p {
+            font-family: $montserat;
+            font-weight: 500;
+            font-size: 14px;
+            text-transform: capitalize;
+            color: $text-9;
+        }
+    }
+    .time-period {
+        p {
+            font-family: $montserat;
+            font-weight: 600;
+            font-size: 13px;
+            text-transform: capitalize;
+            color: $para-clr;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+.third-div {
+    .view-more {
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: 2px solid #4e007a;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: $montserat;
+        font-weight: 600;
+        font-size: 14px;
+        text-transform: capitalize;
+        color: #4e007a;
+        background: $text-white;
+        cursor: pointer;
+        transition: $transition;
+        &:hover {
+            background-color: #4e007a;
+            color: $text-white;
+        }
+    }
+}
+
+.job-status {
+    color: #d42222;
+    font-family: $montserat;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    i {
+        margin-right: 10px;
+        padding-top: 4px;
+        position: relative;
+        top: -5px;
+    }
+}
+
+.all-jobs {
+    font-family: $montserat;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    border: 0;
+    border-radius: 5px;
+    background: #4e007a;
+    color: $text-white;
+    padding: 12px 30px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: $transition;
+    &:hover {
+        box-shadow: $box-shadow;
+    }
+}
+
+.page-job-card {
+    border: 1px solid $border-clr;
+    transition: $transition;
+    max-width: 390px;
+    min-height: 200px;
+    padding: 30px 15px;
+    transition: $transition;
+    &:hover {
+        box-shadow: $box-shadow;
+    }
+}
+
+.first-div-head {
+    font-family: $poppins;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: $text-black;
+    margin-bottom: 20px;
+    line-height: 24px;
+}
+
+.dead-para {
+    font-family: $montserat;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: $text-6;
+    margin-bottom: 10px;
+    max-width: 180px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    i {
+        color: $fiver-clr;
+    }
+}
+
+.dead-date {
+    font-family: $montserat;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: $text-9;
+    margin-bottom: 10px;
+    color: $text-black;
+    max-width: 180px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.s-d-para {
+    font-family: $poppins;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: $text-6;
+    margin-bottom: 10px;
+    color: $text-black;
+}
+
+.dead-date.sd-head {
+    font-family: $montserat;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: $text-9;
+    margin-bottom: 10px;
+    color: $text-black;
+    max-width: 300px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.fj-link {
+    a {
+        font-family: $montserat;
+        font-weight: 600;
+        font-size: 14px;
+        text-transform: capitalize;
+        margin-bottom: 10px;
+        color: $fiver-clr;
+    }
+    &:hover {
+        a {
+            color: $secondary;
+        }
+    }
+}
+
+// Responsive
+@media (max-width: 991px) {
+    .page-job-card {
+        max-width: 460px;
+    }
+}

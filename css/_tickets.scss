@@ -1,0 +1,97 @@
+.tickets-section {
+    border: 1px solid $border-clr;
+    border-radius: 10px;
+    .tickets-head {
+        font-family: $montserat;
+        font-weight: 600;
+        font-size: 16px;
+        text-transform: capitalize;
+        color: $text-black;
+    }
+    .tickets-option {
+        border: 1px solid $border-clr;
+        font-family: $montserat;
+        font-weight: 400;
+        font-size: 16px;
+        text-transform: capitalize;
+        color: $text-black;
+        option {
+            font-family: $montserat;
+            font-weight: 400;
+            font-size: 16px;
+            text-transform: capitalize;
+            color: $text-black;
+        }
+        &:focus {
+            outline: none;
+        }
+    }
+}
+
+.t-heading {
+    font-family: $montserat;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: $text-black;
+    margin-bottom: 10px;
+}
+
+.complaint-managers-profile {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    .manager-image {
+        height: 50px;
+        width: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        overflow: hidden;
+        margin-right: 20px;
+        img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: cover;
+        }
+    }
+    .manager-text {
+        .manager-head {
+            font-family: $montserat;
+            font-weight: 600;
+            font-size: 14px;
+            text-transform: capitalize;
+            color: $head-clr;
+        }
+        .manager-para {
+            font-family: $montserat;
+            font-weight: 500;
+            font-size: 14px;
+            text-transform: capitalize;
+            color: $para-clr;
+        }
+    }
+}
+
+.app {
+    font-family: $montserat;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: $head-clr;
+}
+
+.t-tada {
+    display: flex;
+    align-items: center;
+}
+
+.table-alert {
+    padding: 4px 10px;
+    strong {
+        font-family: $montserat;
+        font-size: 12px;
+        text-transform: capitalize;
+    }
+}

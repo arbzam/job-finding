@@ -1,0 +1,162 @@
+.profile-setting-container {
+    margin: 40px 0;
+    padding: 20px;
+    border: 1px solid $border-clr;
+}
+
+.profile-setting-head {
+    font-family: $montserat;
+    color: $text-6;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+.profile-form {
+    padding: 20px 0;
+}
+
+.save-btn,
+.reset-btn {
+    padding: 10px 20px;
+    font-family: $montserat;
+    color: $text-white;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 600;
+    @extend .flex-class;
+    border-radius: 4px;
+    transition: $transition;
+    &:hover {
+        box-shadow: $box-shadow;
+    }
+}
+
+.save-btn {
+    background-color: #319795;
+    margin-right: 10px;
+}
+
+.reset-btn {
+    background-color: #506690;
+}
+
+// custom checkbox
+.form-group input {
+    padding: 0;
+    height: initial;
+    width: initial;
+    margin-bottom: 0;
+    display: none;
+    cursor: pointer;
+}
+
+.form-group label {
+    position: relative;
+    cursor: pointer;
+    font-family: $montserat;
+    color: $text-6;
+    // text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.form-group label:before {
+    content: "";
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: 1px solid $fiver-clr;
+    box-shadow: $div-shadow;
+    padding: 8px;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-right: 6px;
+}
+
+.form-group input:checked+label:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: 6px;
+    width: 6px;
+    height: 11px;
+    border: solid $secondary;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+// custom checkbox ends
+// switch btn
+.switch {
+    display: inline-block;
+    height: 22px;
+    position: relative;
+    width: 50px;
+}
+
+.switch input {
+    display: none;
+}
+
+.slider {
+    background-color: $text-white;
+    bottom: 0;
+    cursor: pointer;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: 0.4s;
+    border: 1px solid $border-clr;
+}
+
+.slider:before {
+    background-color: #cbd2df;
+    bottom: 1px;
+    content: "";
+    height: 18px;
+    left: 4px;
+    position: absolute;
+    transition: 0.4s;
+    width: 18px;
+}
+
+input:checked+.slider {
+    background-color: #66bb6a;
+}
+
+input:checked+.slider:before {
+    transform: translateX(26px);
+    background-color: $text-white;
+}
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 100%;
+}
+
+.sales-notify {
+    @extend .profile-setting-head;
+}
+
+// responsive
+@media (max-width: 375px) {
+    .form-group label {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 375px) {
+    .sales-notify {
+        margin-bottom: 5px;
+    }
+}

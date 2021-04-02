@@ -1,0 +1,18 @@
+.gallery-box {
+    max-width: 200px;
+    max-height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    min-width: 11.11%;
+}
+
+.join-investors {
+    h2 {
+        font-family: $montserat;
+        text-transform: capitalize;
+        font-weight: 600;
+        font-size: 16px;
+    }
+}

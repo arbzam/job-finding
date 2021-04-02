@@ -1,0 +1,29 @@
+.paginition-con {
+    @extend .flex-class;
+    max-width: 400px;
+    margin: 40px auto;
+}
+
+.paginition-ul {
+    @extend .flex-class;
+    li {
+        border: 1px solid $border-clr;
+        padding: 5px;
+        margin: 0 5px;
+        transition: $transition;
+        &:hover {
+            box-shadow: $box-shadow;
+            a {
+                color: $fiver-clr;
+            }
+        }
+        a {
+            padding: 10px;
+            color: $text-black;
+        }
+        &:first-of-type,
+        &:last-of-type {
+            border: 0;
+        }
+    }
+}

@@ -1,0 +1,1839 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Contact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 , user-scalable=no" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body onload="loader();">
+    <div id="loading-screen" class="top"></div>
+    <div class="wrapper">
+        <!-- side-nav -->
+        <div class="side">
+            <section class="logo-section">
+                <div class="container custom-container">
+                    <div class="position-absolute abs-pos">
+                        <div class="navbar-light p-0">
+                            <div id="navbarSupportedContent">
+                                <div class="w-100 bg-white position-relative relative-pos">
+                                    <ul class="navbar-nav ml-auto custom-ul responsive-main-menu">
+                                        <li class="dropdown nav-item position-relative click-profile">
+                                            <button class="profile-btn" type="button">
+                                               <img src="images/user.png" alt="user image" class="img-fluid" />
+                                            </button>
+                                            <div class="chevron-style">
+                                                <div class="max-width drop-menu-position user-profile-menu" aria-labelledby="dropdownMenuButton">
+                                                    <a class="dropdown-item dashboard-link" href="dashboard.html">dashboard</a>
+                                                    <a class="dropdown-item dashboard-link" href="profile.html">setting</a>
+                                                    <a class="dropdown-item logout-link" href="#">logout</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="dashboard.html">home</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="about-us.html">
+                                               about us
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="how-it-works.html">
+                                               how it works
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="contact.html">
+                                               contact
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModal"> login</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#" data-toggle="modal" data-target="#sign-ip-Modal">sign up</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link primary-clr" href="#">post a job</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- /logo -->
+            <!-- working nav -->
+            <section class="working-nav">
+                <div class="custom-container container">
+                    <nav class="d-flex">
+                        <span class="bar"><i class="fas fa-bars"></i></span>
+                        <div class="scroll d-flex">
+                            <ul class="mx-auto custom-ul working-nav-ul">
+                                <li class="nav-item chev" id="pos-re">
+                                    <div class="d-flex justify-content-between align-items-center pr-4">
+                                        <a class="nav-link" href="#"> Graphics & Design</a>
+                                        <span class="chev-down">
+                                            <i class="fas fa-chevron-down"></i>
+                                         </span>
+                                    </div>
+                                    <div class="drop-menu" id="drop-toggle">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="sub-links mb-4">
+                                                    <h2 class="sub-menu-head">Logo & Brand Identity</h2>
+                                                    <div class="sub-ul">
+                                                        <ul>
+                                                            <li><a href="#">Logo Design</a></li>
+                                                            <li><a href="#">style & guaides</a></li>
+                                                            <li><a href="#">Logo Design</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="sub-links mb-4">
+                                                    <h2 class="sub-menu-head">Gaming</h2>
+                                                    <div class="sub-ul">
+                                                        <ul>
+                                                            <li><a href="#">game Design</a></li>
+                                                            <li><a href="#">game development</a></li>
+                                                            <li><a href="#">python development</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="sub-links mb-4">
+                                                    <h2 class="sub-menu-head">
+                                                        web design & development
+                                                    </h2>
+                                                    <div class="sub-ul">
+                                                        <ul>
+                                                            <li><a href="#">web designer</a></li>
+                                                            <li><a href="#">mockups designer</a></li>
+                                                            <li><a href="#">banner design</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="sub-links mb-4">
+                                                    <h2 class="sub-menu-head">Gdevelopment</h2>
+                                                    <div class="sub-ul">
+                                                        <ul>
+                                                            <li><a href="#">php development</a></li>
+                                                            <li><a href="#">ruby development</a></li>
+                                                            <li><a href="#">python development</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="sub-links mb-4">
+                                                    <h2 class="sub-menu-head">front end development</h2>
+                                                    <div class="sub-ul">
+                                                        <ul>
+                                                            <li><a href="#">html 5</a></li>
+                                                            <li><a href="#">css 3</a></li>
+                                                            <li><a href="#">javascript</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="sub-links mb-4">
+                                                    <h2 class="sub-menu-head">back end development</h2>
+                                                    <div class="sub-ul">
+                                                        <ul>
+                                                            <li><a href="#">php / node.js</a></li>
+                                                            <li><a href="#">mysql / msqli</a></li>
+                                                            <li><a href="#">xampp / wampp</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nav-item chev" id="drop-menu-w-t">
+                                    <div class="d-flex justify-content-between align-items-center pr-4">
+                                        <a class="nav-link" href="#">writing & translation</a>
+                                        <span class="chev-down">
+                                            <i class="fas fa-chevron-down"></i>
+                                         </span>
+                                    </div>
+                                    <div class="drop-menu" id="drop-menu-w-and-t">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="sub-links mb-4">
+                                                    <h2 class="sub-menu-head">Logo & Brand Identity</h2>
+                                                    <div class="sub-ul">
+                                                        <ul>
+                                                            <li><a href="#">Logo Design</a></li>
+                                                            <li><a href="#">style & guaides</a></li>
+                                                            <li><a href="#">Logo Design</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="sub-links mb-4">
+                                                    <h2 class="sub-menu-head">Gaming</h2>
+                                                    <div class="sub-ul">
+                                                        <ul>
+                                                            <li><a href="#">game Design</a></li>
+                                                            <li><a href="#">game development</a></li>
+                                                            <li><a href="#">python development</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="sub-links mb-4">
+                                                    <h2 class="sub-menu-head">
+                                                        web design & development
+                                                    </h2>
+                                                    <div class="sub-ul">
+                                                        <ul>
+                                                            <li><a href="#">web designer</a></li>
+                                                            <li><a href="#">mockups designer</a></li>
+                                                            <li><a href="#">banner design</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="sub-links mb-4">
+                                                    <h2 class="sub-menu-head">Gdevelopment</h2>
+                                                    <div class="sub-ul">
+                                                        <ul>
+                                                            <li><a href="#">php development</a></li>
+                                                            <li><a href="#">ruby development</a></li>
+                                                            <li><a href="#">python development</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="sub-links mb-4">
+                                                    <h2 class="sub-menu-head">front end development</h2>
+                                                    <div class="sub-ul">
+                                                        <ul>
+                                                            <li><a href="#">html 5</a></li>
+                                                            <li><a href="#">css 3</a></li>
+                                                            <li><a href="#">javascript</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="sub-links mb-4">
+                                                    <h2 class="sub-menu-head">back end development</h2>
+                                                    <div class="sub-ul">
+                                                        <ul>
+                                                            <li><a href="#">php / node.js</a></li>
+                                                            <li><a href="#">mysql / msqli</a></li>
+                                                            <li><a href="#">xampp / wampp</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nav-item chev" id="d-m">
+                                    <div class="d-flex justify-content-between align-items-center pr-4">
+                                        <a class="nav-link" href="#">digital Marketing</a>
+                                        <span class="chev-down">
+                                            <i class="fas fa-chevron-down"></i>
+                                         </span>
+                                    </div>
+                                    <div class="drop-menu" id="d-m-data">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="sub-links mb-4">
+                                                    <h2 class="sub-menu-head">Logo & Brand Identity</h2>
+                                                    <div class="sub-ul">
+                                                        <ul>
+                                                            <li><a href="#">Logo Design</a></li>
+                                                            <li><a href="#">style & guaides</a></li>
+                                                            <li><a href="#">Logo Design</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="sub-links mb-4">
+                                                    <h2 class="sub-menu-head">Gaming</h2>
+                                                    <div class="sub-ul">
+                                                        <ul>
+                                                            <li><a href="#">game Design</a></li>
+                                                            <li><a href="#">game development</a></li>
+                                                            <li><a href="#">python development</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="sub-links mb-4">
+                                                    <h2 class="sub-menu-head">
+                                                        web design & development
+                                                    </h2>
+                                                    <div class="sub-ul">
+                                                        <ul>
+                                                            <li><a href="#">web designer</a></li>
+                                                            <li><a href="#">mockups designer</a></li>
+                                                            <li><a href="#">banner design</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="sub-links mb-4">
+                                                    <h2 class="sub-menu-head">Gdevelopment</h2>
+                                                    <div class="sub-ul">
+                                                        <ul>
+                                                            <li><a href="#">php development</a></li>
+                                                            <li><a href="#">ruby development</a></li>
+                                                            <li><a href="#">python development</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="sub-links mb-4">
+                                                    <h2 class="sub-menu-head">front end development</h2>
+                                                    <div class="sub-ul">
+                                                        <ul>
+                                                            <li><a href="#">html 5</a></li>
+                                                            <li><a href="#">css 3</a></li>
+                                                            <li><a href="#">javascript</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="sub-links mb-4">
+                                                    <h2 class="sub-menu-head">back end development</h2>
+                                                    <div class="sub-ul">
+                                                        <ul>
+                                                            <li><a href="#">php / node.js</a></li>
+                                                            <li><a href="#">mysql / msqli</a></li>
+                                                            <li><a href="#">xampp / wampp</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nav-item chev" id="p-t">
+                                    <div class="d-flex justify-content-between align-items-center pr-4">
+                                        <a class="nav-link" href="#">programming & tech</a>
+                                        <span class="chev-down">
+                                            <i class="fas fa-chevron-down"></i>
+                                         </span>
+                                    </div>
+                                    <div class="drop-menu" id="p-t-data">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="sub-links mb-4">
+                                                    <h2 class="sub-menu-head">Logo & Brand Identity</h2>
+                                                    <div class="sub-ul">
+                                                        <ul>
+                                                            <li><a href="#">Logo Design</a></li>
+                                                            <li><a href="#">style & guaides</a></li>
+                                                            <li><a href="#">Logo Design</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="sub-links mb-4">
+                                                    <h2 class="sub-menu-head">Gaming</h2>
+                                                    <div class="sub-ul">
+                                                        <ul>
+                                                            <li><a href="#">game Design</a></li>
+                                                            <li><a href="#">game development</a></li>
+                                                            <li><a href="#">python development</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="sub-links mb-4">
+                                                    <h2 class="sub-menu-head">
+                                                        web design & development
+                                                    </h2>
+                                                    <div class="sub-ul">
+                                                        <ul>
+                                                            <li><a href="#">web designer</a></li>
+                                                            <li><a href="#">mockups designer</a></li>
+                                                            <li><a href="#">banner design</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="sub-links mb-4">
+                                                    <h2 class="sub-menu-head">Gdevelopment</h2>
+                                                    <div class="sub-ul">
+                                                        <ul>
+                                                            <li><a href="#">php development</a></li>
+                                                            <li><a href="#">ruby development</a></li>
+                                                            <li><a href="#">python development</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="sub-links mb-4">
+                                                    <h2 class="sub-menu-head">front end development</h2>
+                                                    <div class="sub-ul">
+                                                        <ul>
+                                                            <li><a href="#">html 5</a></li>
+                                                            <li><a href="#">css 3</a></li>
+                                                            <li><a href="#">javascript</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="sub-links mb-4">
+                                                    <h2 class="sub-menu-head">back end development</h2>
+                                                    <div class="sub-ul">
+                                                        <ul>
+                                                            <li><a href="#">php / node.js</a></li>
+                                                            <li><a href="#">mysql / msqli</a></li>
+                                                            <li><a href="#">xampp / wampp</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nav-item chev" id="v-a">
+                                    <div class="d-flex justify-content-between align-items-center pr-4">
+                                        <a class="nav-link" href="#">video animation</a>
+                                        <span class="chev-down">
+                                            <i class="fas fa-chevron-down"></i>
+                                         </span>
+                                    </div>
+                                    <div class="drop-menu" id="v-a-data">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="sub-links mb-4">
+                                                    <h2 class="sub-menu-head">Logo & Brand Identity</h2>
+                                                    <div class="sub-ul">
+                                                        <ul>
+                                                            <li><a href="#">Logo Design</a></li>
+                                                            <li><a href="#">style & guaides</a></li>
+                                                            <li><a href="#">Logo Design</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="sub-links mb-4">
+                                                    <h2 class="sub-menu-head">Gaming</h2>
+                                                    <div class="sub-ul">
+                                                        <ul>
+                                                            <li><a href="#">game Design</a></li>
+                                                            <li><a href="#">game development</a></li>
+                                                            <li><a href="#">python development</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="sub-links mb-4">
+                                                    <h2 class="sub-menu-head">
+                                                        web design & development
+                                                    </h2>
+                                                    <div class="sub-ul">
+                                                        <ul>
+                                                            <li><a href="#">web designer</a></li>
+                                                            <li><a href="#">mockups designer</a></li>
+                                                            <li><a href="#">banner design</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="sub-links mb-4">
+                                                    <h2 class="sub-menu-head">Gdevelopment</h2>
+                                                    <div class="sub-ul">
+                                                        <ul>
+                                                            <li><a href="#">php development</a></li>
+                                                            <li><a href="#">ruby development</a></li>
+                                                            <li><a href="#">python development</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="sub-links mb-4">
+                                                    <h2 class="sub-menu-head">front end development</h2>
+                                                    <div class="sub-ul">
+                                                        <ul>
+                                                            <li><a href="#">html 5</a></li>
+                                                            <li><a href="#">css 3</a></li>
+                                                            <li><a href="#">javascript</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="sub-links mb-4">
+                                                    <h2 class="sub-menu-head">back end development</h2>
+                                                    <div class="sub-ul">
+                                                        <ul>
+                                                            <li><a href="#">php / node.js</a></li>
+                                                            <li><a href="#">mysql / msqli</a></li>
+                                                            <li><a href="#">xampp / wampp</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nav-item chev" id="business">
+                                    <div class="d-flex justify-content-between align-items-center pr-4">
+                                        <a class="nav-link" href="#">business</a>
+                                        <span class="chev-down">
+                                            <i class="fas fa-chevron-down"></i>
+                                         </span>
+                                    </div>
+                                    <div class="drop-menu" id="b-a-data">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="sub-links mb-4">
+                                                    <h2 class="sub-menu-head">Logo & Brand Identity</h2>
+                                                    <div class="sub-ul">
+                                                        <ul>
+                                                            <li><a href="#">Logo Design</a></li>
+                                                            <li><a href="#">style & guaides</a></li>
+                                                            <li><a href="#">Logo Design</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="sub-links mb-4">
+                                                    <h2 class="sub-menu-head">Gaming</h2>
+                                                    <div class="sub-ul">
+                                                        <ul>
+                                                            <li><a href="#">game Design</a></li>
+                                                            <li><a href="#">game development</a></li>
+                                                            <li><a href="#">python development</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="sub-links mb-4">
+                                                    <h2 class="sub-menu-head">
+                                                        web design & development
+                                                    </h2>
+                                                    <div class="sub-ul">
+                                                        <ul>
+                                                            <li><a href="#">web designer</a></li>
+                                                            <li><a href="#">mockups designer</a></li>
+                                                            <li><a href="#">banner design</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="sub-links mb-4">
+                                                    <h2 class="sub-menu-head">Gdevelopment</h2>
+                                                    <div class="sub-ul">
+                                                        <ul>
+                                                            <li><a href="#">php development</a></li>
+                                                            <li><a href="#">ruby development</a></li>
+                                                            <li><a href="#">python development</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="sub-links mb-4">
+                                                    <h2 class="sub-menu-head">front end development</h2>
+                                                    <div class="sub-ul">
+                                                        <ul>
+                                                            <li><a href="#">html 5</a></li>
+                                                            <li><a href="#">css 3</a></li>
+                                                            <li><a href="#">javascript</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="sub-links mb-4">
+                                                    <h2 class="sub-menu-head">back end development</h2>
+                                                    <div class="sub-ul">
+                                                        <ul>
+                                                            <li><a href="#">php / node.js</a></li>
+                                                            <li><a href="#">mysql / msqli</a></li>
+                                                            <li><a href="#">xampp / wampp</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">music & audio </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </section>
+        </div>
+        <div class="overlay-wrapper"></div>
+        <!-- /side-nav -->
+        <!-- logo -->
+        <section class="logo-section">
+            <div class="container custom-container">
+                <div class="position-absolute abs-pos">
+                    <nav class="navbar navbar-expand-lg navbar-light p-0">
+                        <div class="logo-div">
+                            <span class="side-bar-icon">
+                                   <i class="fas fa-bars"></i>
+                                </span>
+                            <a class="navbar-brand" href="dashboard.html">
+                                <img src="images/logo.png" alt="logo" class="img-fluid" />
+                            </a>
+                        </div>
+
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+                                <div class="burger-menu d-none-1024">
+                                   <div class="line-menu line-half first-line"></div>
+                                   <div class="line-menu"></div>
+                                   <div class="line-menu line-half last-line"></div>
+                                </div>
+                             </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <div class="w-100 bg-white position-relative relative-pos">
+                                <ul class="navbar-nav ml-auto custom-ul responsive-main-menu d-none-1024">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="dashboard.html">home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="about-us.html">
+                                            about us
+                                         </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="how-it-works.html">
+                                            how it works
+                                         </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="contact.html">
+                                            contact
+                                         </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModal"> login</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#" data-toggle="modal" data-target="#sign-ip-Modal">sign up</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link primary-clr" href="#">post a job</a>
+                                    </li>
+                                    <li class="dropdown nav-item position-relative click-profile">
+                                        <button class="profile-btn" type="button">
+                                            <img src="images/user.png" alt="user image" class="img-fluid" />
+                                         </button>
+                                        <div class="chevron-style">
+                                            <div class="max-width drop-menu-position user-profile-menu" aria-labelledby="dropdownMenuButton">
+                                                <a class="dropdown-item dashboard-link" href="dashboard.html">dashboard</a>
+                                                <a class="dropdown-item dashboard-link" href="profile.html">setting</a>
+                                                <a class="dropdown-item logout-link" href="#">logout</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </section>
+        <!-- /logo -->
+        <!-- working main nav -->
+        <section class="working-nav d-none-1024">
+            <div class="custom-container container">
+                <nav class="d-flex">
+                    <span class="bar"><i class="fas fa-bars"></i></span>
+                    <div class="scroll d-flex">
+                        <ul class="mx-auto custom-ul working-nav-ul">
+                            <li class="nav-item pos-re">
+                                <a class="nav-link" href="#"> Graphics & Design </a>
+                                <div class="drop-menu">
+                                    <div class="row">
+                                        <div class="col-12 col-md-6 col-lg-3">
+                                            <div class="sub-links mb-4">
+                                                <h2 class="sub-menu-head">Logo & Brand Identity</h2>
+                                                <div class="sub-ul">
+                                                    <ul>
+                                                        <li><a href="#">Logo Design</a></li>
+                                                        <li><a href="#">style & guaides</a></li>
+                                                        <li><a href="#">Logo Design</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="sub-links mb-4">
+                                                <h2 class="sub-menu-head">Gaming</h2>
+                                                <div class="sub-ul">
+                                                    <ul>
+                                                        <li><a href="#">game Design</a></li>
+                                                        <li><a href="#">game development</a></li>
+                                                        <li><a href="#">python development</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-3">
+                                            <div class="sub-links mb-4">
+                                                <h2 class="sub-menu-head">
+                                                    web design & development
+                                                </h2>
+                                                <div class="sub-ul">
+                                                    <ul>
+                                                        <li><a href="#">web designer</a></li>
+                                                        <li><a href="#">mockups designer</a></li>
+                                                        <li><a href="#">banner design</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="sub-links mb-4">
+                                                <h2 class="sub-menu-head">Gdevelopment</h2>
+                                                <div class="sub-ul">
+                                                    <ul>
+                                                        <li><a href="#">php development</a></li>
+                                                        <li><a href="#">ruby development</a></li>
+                                                        <li><a href="#">python development</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-3">
+                                            <div class="sub-links mb-4">
+                                                <h2 class="sub-menu-head">front end development</h2>
+                                                <div class="sub-ul">
+                                                    <ul>
+                                                        <li><a href="#">html 5</a></li>
+                                                        <li><a href="#">css 3</a></li>
+                                                        <li><a href="#">javascript</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-3">
+                                            <div class="sub-links mb-4">
+                                                <h2 class="sub-menu-head">back end development</h2>
+                                                <div class="sub-ul">
+                                                    <ul>
+                                                        <li><a href="#">php / node.js</a></li>
+                                                        <li><a href="#">mysql / msqli</a></li>
+                                                        <li><a href="#">xampp / wampp</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item drop-menu-w-t">
+                                <a class="nav-link" href="#"> Writing & Translation</a>
+                                <div class="drop-menu-w-and-t">
+                                    <div class="row">
+                                        <div class="col-12 col-md-6 col-lg-3">
+                                            <div class="sub-links mb-4">
+                                                <h2 class="sub-menu-head">Logo & Brand Identity</h2>
+                                                <div class="sub-ul">
+                                                    <ul>
+                                                        <li><a href="#">Logo Design</a></li>
+                                                        <li><a href="#">style & guaides</a></li>
+                                                        <li><a href="#">Logo Design</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="sub-links mb-4">
+                                                <h2 class="sub-menu-head">Gaming</h2>
+                                                <div class="sub-ul">
+                                                    <ul>
+                                                        <li><a href="#">game Design</a></li>
+                                                        <li><a href="#">game development</a></li>
+                                                        <li><a href="#">python development</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-3">
+                                            <div class="sub-links mb-4">
+                                                <h2 class="sub-menu-head">
+                                                    web design & development
+                                                </h2>
+                                                <div class="sub-ul">
+                                                    <ul>
+                                                        <li><a href="#">web designer</a></li>
+                                                        <li><a href="#">mockups designer</a></li>
+                                                        <li><a href="#">banner design</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="sub-links mb-4">
+                                                <h2 class="sub-menu-head">Gdevelopment</h2>
+                                                <div class="sub-ul">
+                                                    <ul>
+                                                        <li><a href="#">php development</a></li>
+                                                        <li><a href="#">ruby development</a></li>
+                                                        <li><a href="#">python development</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-3">
+                                            <div class="sub-links mb-4">
+                                                <h2 class="sub-menu-head">front end development</h2>
+                                                <div class="sub-ul">
+                                                    <ul>
+                                                        <li><a href="#">html 5</a></li>
+                                                        <li><a href="#">css 3</a></li>
+                                                        <li><a href="#">javascript</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-3">
+                                            <div class="sub-links mb-4">
+                                                <h2 class="sub-menu-head">back end development</h2>
+                                                <div class="sub-ul">
+                                                    <ul>
+                                                        <li><a href="#">php / node.js</a></li>
+                                                        <li><a href="#">mysql / msqli</a></li>
+                                                        <li><a href="#">xampp / wampp</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item d-m">
+                                <a class="nav-link" href="#">Digital Marketing</a>
+                                <div class="d-m-data">
+                                    <div class="row">
+                                        <div class="col-12 col-md-6 col-lg-3">
+                                            <div class="sub-links mb-4">
+                                                <h2 class="sub-menu-head">Logo & Brand Identity</h2>
+                                                <div class="sub-ul">
+                                                    <ul>
+                                                        <li><a href="#">Logo Design</a></li>
+                                                        <li><a href="#">style & guaides</a></li>
+                                                        <li><a href="#">Logo Design</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="sub-links mb-4">
+                                                <h2 class="sub-menu-head">Gaming</h2>
+                                                <div class="sub-ul">
+                                                    <ul>
+                                                        <li><a href="#">game Design</a></li>
+                                                        <li><a href="#">game development</a></li>
+                                                        <li><a href="#">python development</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-3">
+                                            <div class="sub-links mb-4">
+                                                <h2 class="sub-menu-head">
+                                                    web design & development
+                                                </h2>
+                                                <div class="sub-ul">
+                                                    <ul>
+                                                        <li><a href="#">web designer</a></li>
+                                                        <li><a href="#">mockups designer</a></li>
+                                                        <li><a href="#">banner design</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="sub-links mb-4">
+                                                <h2 class="sub-menu-head">Gdevelopment</h2>
+                                                <div class="sub-ul">
+                                                    <ul>
+                                                        <li><a href="#">php development</a></li>
+                                                        <li><a href="#">ruby development</a></li>
+                                                        <li><a href="#">python development</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-3">
+                                            <div class="sub-links mb-4">
+                                                <h2 class="sub-menu-head">front end development</h2>
+                                                <div class="sub-ul">
+                                                    <ul>
+                                                        <li><a href="#">html 5</a></li>
+                                                        <li><a href="#">css 3</a></li>
+                                                        <li><a href="#">javascript</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-3">
+                                            <div class="sub-links mb-4">
+                                                <h2 class="sub-menu-head">back end development</h2>
+                                                <div class="sub-ul">
+                                                    <ul>
+                                                        <li><a href="#">php / node.js</a></li>
+                                                        <li><a href="#">mysql / msqli</a></li>
+                                                        <li><a href="#">xampp / wampp</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item p-and-t">
+                                <a class="nav-link" href="#"> Programming & Tech</a>
+                                <div class="p-t-data">
+                                    <div class="row">
+                                        <div class="col-12 col-md-6 col-lg-3">
+                                            <div class="sub-links mb-4">
+                                                <h2 class="sub-menu-head">Logo & Brand Identity</h2>
+                                                <div class="sub-ul">
+                                                    <ul>
+                                                        <li><a href="#">Logo Design</a></li>
+                                                        <li><a href="#">style & guaides</a></li>
+                                                        <li><a href="#">Logo Design</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="sub-links mb-4">
+                                                <h2 class="sub-menu-head">Gaming</h2>
+                                                <div class="sub-ul">
+                                                    <ul>
+                                                        <li><a href="#">game Design</a></li>
+                                                        <li><a href="#">game development</a></li>
+                                                        <li><a href="#">python development</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-3">
+                                            <div class="sub-links mb-4">
+                                                <h2 class="sub-menu-head">
+                                                    web design & development
+                                                </h2>
+                                                <div class="sub-ul">
+                                                    <ul>
+                                                        <li><a href="#">web designer</a></li>
+                                                        <li><a href="#">mockups designer</a></li>
+                                                        <li><a href="#">banner design</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="sub-links mb-4">
+                                                <h2 class="sub-menu-head">Gdevelopment</h2>
+                                                <div class="sub-ul">
+                                                    <ul>
+                                                        <li><a href="#">php development</a></li>
+                                                        <li><a href="#">ruby development</a></li>
+                                                        <li><a href="#">python development</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-3">
+                                            <div class="sub-links mb-4">
+                                                <h2 class="sub-menu-head">front end development</h2>
+                                                <div class="sub-ul">
+                                                    <ul>
+                                                        <li><a href="#">html 5</a></li>
+                                                        <li><a href="#">css 3</a></li>
+                                                        <li><a href="#">javascript</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-3">
+                                            <div class="sub-links mb-4">
+                                                <h2 class="sub-menu-head">back end development</h2>
+                                                <div class="sub-ul">
+                                                    <ul>
+                                                        <li><a href="#">php / node.js</a></li>
+                                                        <li><a href="#">mysql / msqli</a></li>
+                                                        <li><a href="#">xampp / wampp</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item v-a">
+                                <a class="nav-link" href="#"> Video & Anirnation </a>
+                                <div class="v-a-data">
+                                    <div class="row">
+                                        <div class="col-12 col-md-6 col-lg-3">
+                                            <div class="sub-links mb-4">
+                                                <h2 class="sub-menu-head">Logo & Brand Identity</h2>
+                                                <div class="sub-ul">
+                                                    <ul>
+                                                        <li><a href="#">Logo Design</a></li>
+                                                        <li><a href="#">style & guaides</a></li>
+                                                        <li><a href="#">Logo Design</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="sub-links mb-4">
+                                                <h2 class="sub-menu-head">Gaming</h2>
+                                                <div class="sub-ul">
+                                                    <ul>
+                                                        <li><a href="#">game Design</a></li>
+                                                        <li><a href="#">game development</a></li>
+                                                        <li><a href="#">python development</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-3">
+                                            <div class="sub-links mb-4">
+                                                <h2 class="sub-menu-head">
+                                                    web design & development
+                                                </h2>
+                                                <div class="sub-ul">
+                                                    <ul>
+                                                        <li><a href="#">web designer</a></li>
+                                                        <li><a href="#">mockups designer</a></li>
+                                                        <li><a href="#">banner design</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="sub-links mb-4">
+                                                <h2 class="sub-menu-head">Gdevelopment</h2>
+                                                <div class="sub-ul">
+                                                    <ul>
+                                                        <li><a href="#">php development</a></li>
+                                                        <li><a href="#">ruby development</a></li>
+                                                        <li><a href="#">python development</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-3">
+                                            <div class="sub-links mb-4">
+                                                <h2 class="sub-menu-head">front end development</h2>
+                                                <div class="sub-ul">
+                                                    <ul>
+                                                        <li><a href="#">html 5</a></li>
+                                                        <li><a href="#">css 3</a></li>
+                                                        <li><a href="#">javascript</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-3">
+                                            <div class="sub-links mb-4">
+                                                <h2 class="sub-menu-head">back end development</h2>
+                                                <div class="sub-ul">
+                                                    <ul>
+                                                        <li><a href="#">php / node.js</a></li>
+                                                        <li><a href="#">mysql / msqli</a></li>
+                                                        <li><a href="#">xampp / wampp</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item business">
+                                <a class="nav-link" href="#"> Business </a>
+                                <div class="business-data">
+                                    <div class="row">
+                                        <div class="col-12 col-md-6 col-lg-3">
+                                            <div class="sub-links mb-4">
+                                                <h2 class="sub-menu-head">Logo & Brand Identity</h2>
+                                                <div class="sub-ul">
+                                                    <ul>
+                                                        <li><a href="#">Logo Design</a></li>
+                                                        <li><a href="#">style & guaides</a></li>
+                                                        <li><a href="#">Logo Design</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="sub-links mb-4">
+                                                <h2 class="sub-menu-head">Gaming</h2>
+                                                <div class="sub-ul">
+                                                    <ul>
+                                                        <li><a href="#">game Design</a></li>
+                                                        <li><a href="#">game development</a></li>
+                                                        <li><a href="#">python development</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-3">
+                                            <div class="sub-links mb-4">
+                                                <h2 class="sub-menu-head">
+                                                    web design & development
+                                                </h2>
+                                                <div class="sub-ul">
+                                                    <ul>
+                                                        <li><a href="#">web designer</a></li>
+                                                        <li><a href="#">mockups designer</a></li>
+                                                        <li><a href="#">banner design</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="sub-links mb-4">
+                                                <h2 class="sub-menu-head">Gdevelopment</h2>
+                                                <div class="sub-ul">
+                                                    <ul>
+                                                        <li><a href="#">php development</a></li>
+                                                        <li><a href="#">ruby development</a></li>
+                                                        <li><a href="#">python development</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-3">
+                                            <div class="sub-links mb-4">
+                                                <h2 class="sub-menu-head">front end development</h2>
+                                                <div class="sub-ul">
+                                                    <ul>
+                                                        <li><a href="#">html 5</a></li>
+                                                        <li><a href="#">css 3</a></li>
+                                                        <li><a href="#">javascript</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-3">
+                                            <div class="sub-links mb-4">
+                                                <h2 class="sub-menu-head">back end development</h2>
+                                                <div class="sub-ul">
+                                                    <ul>
+                                                        <li><a href="#">php / node.js</a></li>
+                                                        <li><a href="#">mysql / msqli</a></li>
+                                                        <li><a href="#">xampp / wampp</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item fun-and-lifestyle">
+                                <a class="nav-link" href="#"> Fun & Lifestyle </a>
+                                <div class="f-and-n-data">
+                                    <div class="row">
+                                        <div class="col-12 col-md-6 col-lg-3">
+                                            <div class="sub-links mb-4">
+                                                <h2 class="sub-menu-head">Logo & Brand Identity</h2>
+                                                <div class="sub-ul">
+                                                    <ul>
+                                                        <li><a href="#">Logo Design</a></li>
+                                                        <li><a href="#">style & guaides</a></li>
+                                                        <li><a href="#">Logo Design</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="sub-links mb-4">
+                                                <h2 class="sub-menu-head">Gaming</h2>
+                                                <div class="sub-ul">
+                                                    <ul>
+                                                        <li><a href="#">game Design</a></li>
+                                                        <li><a href="#">game development</a></li>
+                                                        <li><a href="#">python development</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-3">
+                                            <div class="sub-links mb-4">
+                                                <h2 class="sub-menu-head">
+                                                    web design & development
+                                                </h2>
+                                                <div class="sub-ul">
+                                                    <ul>
+                                                        <li><a href="#">web designer</a></li>
+                                                        <li><a href="#">mockups designer</a></li>
+                                                        <li><a href="#">banner design</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="sub-links mb-4">
+                                                <h2 class="sub-menu-head">Gdevelopment</h2>
+                                                <div class="sub-ul">
+                                                    <ul>
+                                                        <li><a href="#">php development</a></li>
+                                                        <li><a href="#">ruby development</a></li>
+                                                        <li><a href="#">python development</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-3">
+                                            <div class="sub-links mb-4">
+                                                <h2 class="sub-menu-head">front end development</h2>
+                                                <div class="sub-ul">
+                                                    <ul>
+                                                        <li><a href="#">html 5</a></li>
+                                                        <li><a href="#">css 3</a></li>
+                                                        <li><a href="#">javascript</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-3">
+                                            <div class="sub-links mb-4">
+                                                <h2 class="sub-menu-head">back end development</h2>
+                                                <div class="sub-ul">
+                                                    <ul>
+                                                        <li><a href="#">php / node.js</a></li>
+                                                        <li><a href="#">mysql / msqli</a></li>
+                                                        <li><a href="#">xampp / wampp</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">music & audio </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </section>
+        <!-- /working main nav -->
+        <!-- breadcrumb -->
+        <section class="breadcrumb-section">
+            <div class="container-selector-btn">
+                <button type="button" class="selector-btn">SOLLICTEER DIRECT</button>
+            </div>
+        </section>
+        <!-- /breadcrumb -->
+        <!-- main content -->
+        <main class="main-content-section">
+            <div class="container custom-container">
+                <section class="first-main-content">
+                    <div class="filter-div contact-filter">
+                        <div class="congrats-div">
+                            <h2 class="congrats-head">Contactgegevens</h2>
+                            <p class="congrats-para">Je kunt ons ook direct contacten via anderstaznd teLefoonnummer of Ermail adres.</p>
+                            <div class="congrats-link">
+                                <span class="tel">tel : <a href="tel: 020 - 564 1544"> 020 - 564 1544</a></span>
+                                <span class="mail"><a href="mailto:info@next.youngcapital.ni">info@next.youngcapital.ni</a></span>
+                            </div>
+                        </div>
+                        <div class="congrats-div">
+                            <h2 class="congrats-head">Veelgestelde vragen</h2>
+                            <p class="congrats-para">
+                                Aues weten over het valgen van een apleidmg of traineeship bij youngcapitaL NEXT? We hebben de belangrijkste vragen en antwoorden vaorje op een rijtje gezet.
+                            </p>
+                            <button type="button" class="check-faq">
+                                    check de faq
+                                </button>
+                        </div>
+                        <div class="congrats-div black-div">
+                            <h2 class="congrats-head">Ben je een werkgever?</h2>
+                            <p class="congrats-para">
+                                Wij werven summe, gedreven kandidaten, met sterke sociaLe vaardigheden en passie vcor jouw wk. Check wat wij nag meer voorjou kunnen betekenen.
+                            </p>
+                            <button type="button" class="check-faq ga">
+                                    ga naar werkgeverspagina
+                                </button>
+                        </div>
+                    </div>
+                    <div class="job-postal-div contact-div">
+                        <div class="container custom-container mb-4">
+                            <ul class="breadcrumb-list">
+                                <li class="bread-item">
+                                    <a href="dashboard.html" class="bread-link active-bread-link"><i class="fas fa-home"></i></a><i class="fas fa-chevron-right bread-icon"></i>
+                                </li>
+                                <li class="bread-item"><a href="contact.html" class="bread-link">contact</a><i class="fas fa-chevron-right bread-icon"></i></li>
+                            </ul>
+                        </div>
+                        <div class="contact-form-container">
+                            <div class="black-div">
+                                <h2>Neem contact met ons op</h2>
+                                <div class="black-div-para-con">
+                                    <p>
+                                        WTLje meer weten aver een tmineeship of opleiding youngcapitaL NEXT? SteLje vraag hieronder. Dan nemen we 20 sneL magelijk Contact metje up. Belje Liever? Bek'u'k dan hieronder de teLefoonnummers van de verschillende Voungcapital NExHacaties.
+                                    </p>
+                                </div>
+                            </div>
+                            <form action="#" method="post" class="contact-form">
+                                <h2 class="contact-left-head text-truncate text-capitalize">
+                                    stel hierje vraag
+                                </h2>
+                                <p>
+                                    We beantwoorden jauw vraag Zo sneL mageujk. m duurt maximaal twee werkdagen.
+                                </p>
+                                <div class="form-div-container d-flex justify-content-between w-100 align-items-center">
+                                    <label for="je">Je naam <span>*</span> </label>
+                                    <div class="field-div-max-width">
+                                        <input type="text" class="je-name" required placeholder="je naam" />
+                                    </div>
+                                </div>
+                                <div class="form-div-container d-flex justify-content-between w-100 align-items-center">
+                                    <label for="je">e-mail <span>*</span> </label>
+                                    <div class="field-div-max-width">
+                                        <input type="text" class="e-mail" required placeholder="e-mail" />
+                                    </div>
+                                </div>
+                                <div class="form-div-container d-flex justify-content-between w-100 align-items-center">
+                                    <label for="je">vraag <span>*</span> </label>
+                                    <div class="field-div-max-width">
+                                        <input type="text" class="vraag" required placeholder="vraag" />
+                                    </div>
+                                </div>
+                                <div class="form-div-container d-flex justify-content-between w-100 align-items-center">
+                                    <label for="onderwerp">onderwerp <span>*</span> </label>
+                                    <div class="field-div-max-width">
+                                        <select name="onderwerp" id="onderwerp" class="onderwerp">
+                                                <option value="0">onderwerp</option>
+                                                <option value="1">netherlands</option>
+                                            </select>
+                                    </div>
+                                </div>
+                                <div class="contact-form-submit-container">
+                                    <button type="submit" class="contact-submit">
+                                            vlmuull
+                                        </button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="young-capital-div">
+                            <h2 class="young-capital-head text-truncate">YoungCapital NEXT locaties</h2>
+                            <div class="young-image-div">
+                                <img src="images/capital.jpg" alt="young capital" class="img-fluid" />
+                            </div>
+                            <h2 class="young-capital-head">YoungCapital NEXT - hoofddrop</h2>
+                            <p class="young-capital-text">Aquarius , Siriusdreef 12</p>
+                            <p class="young-capital-text">2132 M Hoofddorp</p>
+                            <div class="congrats-link">
+                                <span class="tel">Tel : <a href="tel: 020 - 564 1544"> 020 - 564 1544</a></span>
+                                <span class="mail"><a href="mailto:info@next.youngcapital.ni">info@next.youngcapital.ni</a></span>
+                            </div>
+                        </div>
+                        <div class="young-capital-profiles">
+                            <div class="profile-image-capital">
+                                <img src="images/profile-one.jpg" alt="profile one" class="img-fluid" />
+                            </div>
+                            <div class="young-capital-profile-text">
+                                <h2 class="young-capital-head text-truncate">YoungCapital NEXT - eindhoven</h2>
+                                <p class="young-capital-text">emmasignel 19</p>
+                                <p class="young-capital-text">5611 AZ Enidhoven</p>
+                                <p class="young-capital-text">benny knobben</p>
+                                <div class="congrats-link">
+                                    <span class="mail">Email : <a href="mailto:b.knobben@next.youngcapital.ni" class="ml-1">b.knobben@next.youngcapital.ni</a></span>
+                                    <span class="tel">Tel : <a href="tel:(+31) 06 - 535 420 54"> (+31) 06 - 535 420 54</a></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="young-capital-profiles div-shadow">
+                            <div class="profile-image-capital">
+                                <img src="images/profile-two.jpg" alt="profile one" class="img-fluid" />
+                            </div>
+                            <div class="young-capital-profile-text">
+                                <h2 class="young-capital-head text-truncate">YoungCapital NEXT - groningen</h2>
+                                <p class="young-capital-text">leonard springeriaan 19</p>
+                                <p class="young-capital-text">9727 KB Groningen</p>
+                                <p class="young-capital-text">peter evers</p>
+                                <div class="congrats-link">
+                                    <span class="tel">Tel : <a href="tel: (+31) 06 - 207 511 74 "> (+31) 06 - 207 511 74 </a></span>
+                                    <span class="mail">Email : <a href="mailto:p.evers@next.youngcapital.ni">p.evers@next.youngcapital.ni</a></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="young-capital-profiles">
+                            <div class="profile-image-capital">
+                                <img src="images/profile-three.jpg" alt="profile one" class="img-fluid" />
+                            </div>
+                            <div class="young-capital-profile-text">
+                                <h2 class="young-capital-head">YoungCapital NEXT - zwolle</h2>
+                                <p class="young-capital-text">Assendarperdijk 1</p>
+                                <p class="young-capital-text">8012 EG zwolle</p>
+                                <p class="young-capital-text">Thome Grabbe</p>
+                                <div class="congrats-link">
+                                    <span class="mail">Email : <a href="mailto:t.grobbee@next.youngcapital.ni" class="ml-1">t.grobbee@next.youngcapital.ni</a></span>
+                                    <span class="tel">Tel : <a href="tel:(+31) 06 - 821 113 62">(+31) 06 - 821 113 62</a></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <!-- /main content -->
+        <!-- second-last-job section -->
+        <section class="jobs-section equal-padding">
+            <div id="mu" class="carousel slide carousel-multi-item multi-item-carousel" data-ride="carousel" data-interval="false">
+                <div class="container custom-container">
+                    <div class="d-flex justify-content-between py-3 div-border-bottom align-items-center recent-jobs-container position-relative">
+                        <h2 class="recently-added-head">recently added jobs</h2>
+                        <div class="arrows controls-top">
+                            <a class="lef btn-floating" href="#mu" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
+                            <a class="rig btn-floating" href="#mu" data-slide="next"><i class="fa fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container custom-container">
+                    <!--Slides-->
+                    <div class="carousel-inner my-4" role="listbox">
+                        <!--First slide-->
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-12 col-md-6 col-lg-3">
+                                    <div class="page-job-card">
+                                        <h2 class="first-div-head text-truncate">
+                                            full stack developer
+                                        </h2>
+                                        <div class="dead-other-data">
+                                            <div class="d-flex justify-content-between w-100 mb-2 align-items-center">
+                                                <p class="dead-para text-info"><i class="fas fa-network-wired"></i> Publish</p>
+                                                <span class="dead-date">1st March, 2019.</span>
+                                            </div>
+                                            <div class="d-flex justify-content-between w-100 mb-2 align-items-center">
+                                                <p class="dead-para text-danger"><i class="fas fa-radiation-alt"></i> expired</p>
+                                                <span class="dead-date">18th March, 2019.</span>
+                                            </div>
+                                            <div class="d-flex justify-content-between w-100 mb-2 align-items-center">
+                                                <p class="dead-para text-success"><i class="fas fa-user-friends"></i> person required</p>
+                                                <span class="dead-date">2 males</span>
+                                            </div>
+                                            <div class="d-flex justify-content-between w-100 mb-2 align-items-center">
+                                                <p class="dead-para text-warning"><i class="fas fa-street-view"></i> location</p>
+                                                <span class="dead-date">netherlands </span>
+                                            </div>
+                                            <div class="d-flex justify-content-start w-100 mb-2 align-items-center">
+                                                <span class="dead-date mr-2">skills required: </span>
+                                                <p class="dead-para">html5 , css3 , javascript , php , mysli / mysql , node.js</p>
+                                            </div>
+                                            <div class="d-flex justify-content-start w-100 mb-2 flex-column">
+                                                <span class="dead-date sd-head">short description: </span>
+                                                <p class="s-d-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora debitis pariatur sequi quidem distinctio asperiores nostrum ex id voluptatem laboriosam.</p>
+                                            </div>
+                                            <div class="fj-link">
+                                                <a href="#">view full job detail</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-3">
+                                    <div class="page-job-card">
+                                        <h2 class="first-div-head text-truncate">
+                                            full stack developer
+                                        </h2>
+                                        <div class="dead-other-data">
+                                            <div class="d-flex justify-content-between w-100 mb-2 align-items-center">
+                                                <p class="dead-para text-info"><i class="fas fa-network-wired"></i> Publish</p>
+                                                <span class="dead-date">1st March, 2019.</span>
+                                            </div>
+                                            <div class="d-flex justify-content-between w-100 mb-2 align-items-center">
+                                                <p class="dead-para text-danger"><i class="fas fa-radiation-alt"></i> expired</p>
+                                                <span class="dead-date">18th March, 2019.</span>
+                                            </div>
+                                            <div class="d-flex justify-content-between w-100 mb-2 align-items-center">
+                                                <p class="dead-para text-success"><i class="fas fa-user-friends"></i> person required</p>
+                                                <span class="dead-date">2 males</span>
+                                            </div>
+                                            <div class="d-flex justify-content-between w-100 mb-2 align-items-center">
+                                                <p class="dead-para text-warning"><i class="fas fa-street-view"></i> location</p>
+                                                <span class="dead-date">netherlands </span>
+                                            </div>
+                                            <div class="d-flex justify-content-start w-100 mb-2 align-items-center">
+                                                <span class="dead-date mr-2">skills required: </span>
+                                                <p class="dead-para">html5 , css3 , javascript , php , mysli / mysql , node.js</p>
+                                            </div>
+                                            <div class="d-flex justify-content-start w-100 mb-2 flex-column">
+                                                <span class="dead-date sd-head">short description: </span>
+                                                <p class="s-d-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora debitis pariatur sequi quidem distinctio asperiores nostrum ex id voluptatem laboriosam.</p>
+                                            </div>
+                                            <div class="fj-link">
+                                                <a href="#">view full job detail</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-3">
+                                    <div class="page-job-card">
+                                        <h2 class="first-div-head text-truncate">
+                                            full stack developer
+                                        </h2>
+                                        <div class="dead-other-data">
+                                            <div class="d-flex justify-content-between w-100 mb-2 align-items-center">
+                                                <p class="dead-para text-info"><i class="fas fa-network-wired"></i> Publish</p>
+                                                <span class="dead-date">1st March, 2019.</span>
+                                            </div>
+                                            <div class="d-flex justify-content-between w-100 mb-2 align-items-center">
+                                                <p class="dead-para text-danger"><i class="fas fa-radiation-alt"></i> expired</p>
+                                                <span class="dead-date">18th March, 2019.</span>
+                                            </div>
+                                            <div class="d-flex justify-content-between w-100 mb-2 align-items-center">
+                                                <p class="dead-para text-success"><i class="fas fa-user-friends"></i> person required</p>
+                                                <span class="dead-date">2 males</span>
+                                            </div>
+                                            <div class="d-flex justify-content-between w-100 mb-2 align-items-center">
+                                                <p class="dead-para text-warning"><i class="fas fa-street-view"></i> location</p>
+                                                <span class="dead-date">netherlands </span>
+                                            </div>
+                                            <div class="d-flex justify-content-start w-100 mb-2 align-items-center">
+                                                <span class="dead-date mr-2">skills required: </span>
+                                                <p class="dead-para">html5 , css3 , javascript , php , mysli / mysql , node.js</p>
+                                            </div>
+                                            <div class="d-flex justify-content-start w-100 mb-2 flex-column">
+                                                <span class="dead-date sd-head">short description: </span>
+                                                <p class="s-d-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora debitis pariatur sequi quidem distinctio asperiores nostrum ex id voluptatem laboriosam.</p>
+                                            </div>
+                                            <div class="fj-link">
+                                                <a href="#">view full job detail</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-3">
+                                    <div class="page-job-card">
+                                        <h2 class="first-div-head text-truncate">
+                                            full stack developer
+                                        </h2>
+                                        <div class="dead-other-data">
+                                            <div class="d-flex justify-content-between w-100 mb-2 align-items-center">
+                                                <p class="dead-para text-info"><i class="fas fa-network-wired"></i> Publish</p>
+                                                <span class="dead-date">1st March, 2019.</span>
+                                            </div>
+                                            <div class="d-flex justify-content-between w-100 mb-2 align-items-center">
+                                                <p class="dead-para text-danger"><i class="fas fa-radiation-alt"></i> expired</p>
+                                                <span class="dead-date">18th March, 2019.</span>
+                                            </div>
+                                            <div class="d-flex justify-content-between w-100 mb-2 align-items-center">
+                                                <p class="dead-para text-success"><i class="fas fa-user-friends"></i> person required</p>
+                                                <span class="dead-date">2 males</span>
+                                            </div>
+                                            <div class="d-flex justify-content-between w-100 mb-2 align-items-center">
+                                                <p class="dead-para text-warning"><i class="fas fa-street-view"></i> location</p>
+                                                <span class="dead-date">netherlands </span>
+                                            </div>
+                                            <div class="d-flex justify-content-start w-100 mb-2 align-items-center">
+                                                <span class="dead-date mr-2">skills required: </span>
+                                                <p class="dead-para">html5 , css3 , javascript , php , mysli / mysql , node.js</p>
+                                            </div>
+                                            <div class="d-flex justify-content-start w-100 mb-2 flex-column">
+                                                <span class="dead-date sd-head">short description: </span>
+                                                <p class="s-d-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora debitis pariatur sequi quidem distinctio asperiores nostrum ex id voluptatem laboriosam.</p>
+                                            </div>
+                                            <div class="fj-link">
+                                                <a href="#">view full job detail</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/.First slide-->
+                        <!--Second slide-->
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-12 col-md-6 col-lg-3">
+                                    <div class="page-job-card">
+                                        <h2 class="first-div-head text-truncate">
+                                            full stack developer
+                                        </h2>
+                                        <div class="dead-other-data">
+                                            <div class="d-flex justify-content-between w-100 mb-2 align-items-center">
+                                                <p class="dead-para text-info"><i class="fas fa-network-wired"></i> Publish</p>
+                                                <span class="dead-date">1st March, 2019.</span>
+                                            </div>
+                                            <div class="d-flex justify-content-between w-100 mb-2 align-items-center">
+                                                <p class="dead-para text-danger"><i class="fas fa-radiation-alt"></i> expired</p>
+                                                <span class="dead-date">18th March, 2019.</span>
+                                            </div>
+                                            <div class="d-flex justify-content-between w-100 mb-2 align-items-center">
+                                                <p class="dead-para text-success"><i class="fas fa-user-friends"></i> person required</p>
+                                                <span class="dead-date">2 males</span>
+                                            </div>
+                                            <div class="d-flex justify-content-between w-100 mb-2 align-items-center">
+                                                <p class="dead-para text-warning"><i class="fas fa-street-view"></i> location</p>
+                                                <span class="dead-date">netherlands </span>
+                                            </div>
+                                            <div class="d-flex justify-content-start w-100 mb-2 align-items-center">
+                                                <span class="dead-date mr-2">skills required: </span>
+                                                <p class="dead-para">html5 , css3 , javascript , php , mysli / mysql , node.js</p>
+                                            </div>
+                                            <div class="d-flex justify-content-start w-100 mb-2 flex-column">
+                                                <span class="dead-date sd-head">short description: </span>
+                                                <p class="s-d-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora debitis pariatur sequi quidem distinctio asperiores nostrum ex id voluptatem laboriosam.</p>
+                                            </div>
+                                            <div class="fj-link">
+                                                <a href="#">view full job detail</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/.Second slide-->
+                    </div>
+
+                    <!--/.Slides-->
+                    <!--/.Carousel Wrapper-->
+                </div>
+                <div class="container custom-container d-flex justify-content-end">
+                    <button type="button" class="all-jobs">all jobs</button>
+                </div>
+            </div>
+        </section>
+        <!-- /second-last-job section -->
+        <!-- footer -->
+        <section class="footer-section">
+            <footer class="main-footer">
+                <div class="container custom-container">
+                    <div class="d-flex w-100 flex-wrap justify-content-between div-border-bottom pb-4">
+                        <div class="links">
+                            <h2>Mollie</h2>
+                            <ul>
+                                <li>
+                                    <a href="#">Tarieven</a>
+                                </li>
+                                <li>
+                                    <a href="#">Support</a>
+                                </li>
+                                <li>
+                                    <a href="#">Integrations</a>
+                                </li>
+                                <li>
+                                    <a href="#">Partners</a>
+                                </li>
+                                <li>
+                                    <a href="#">Betaald met Mollie</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="links">
+                            <h2>Features</h2>
+                            <ul>
+                                <li>
+                                    <a href="#">Payments</a>
+                                </li>
+                                <li>
+                                    <a href="#">Recurring</a>
+                                </li>
+                                <li>
+                                    <a href="#">Mollie for mobile</a>
+                                </li>
+                                <li>
+                                    <a href="#">Checkout</a>
+                                </li>
+                                <li>
+                                    <a href="#">Beveiliging</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="links">
+                            <h2>Ontwikkelaars</h2>
+                            <ul>
+                                <li>
+                                    <a href="#">API-reference</a>
+                                </li>
+                                <li>
+                                    <a href="#">Guides</a>
+                                </li>
+                                <li>
+                                    <a href="#">Pakketten</a>
+                                </li>
+                                <li>
+                                    <a href="#">Changelog</a>
+                                </li>
+                                <li>
+                                    <a href="#">Status</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="links">
+                            <h2>Bedrijf</h2>
+                            <ul>
+                                <li>
+                                    <a href="#">Over Mollie</a>
+                                </li>
+                                <li>
+                                    <a href="#">Vacatures</a>
+                                </li>
+                                <li>
+                                    <a href="#">Neem contact op</a>
+                                </li>
+                                <li>
+                                    <a href="#">Nieuws</a>
+                                </li>
+                                <li>
+                                    <a href="#">Resources</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="links">
+                            <h2>taal</h2>
+                            <form action="#" class="footer-form">
+                                <select name="" id="">
+                                        <option value="1">netherlands</option>
+                                        <option value="2">iceland</option>
+                                        <option value="3">iraland</option>
+                                    </select>
+                            </form>
+                            <div class="social links">
+                                <h2 class="my-2">social</h2>
+                                <ul>
+                                    <li>
+                                        <a href="https://twitter.com/login" target="_blank"><i class="fab fa-twitter"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.instagram.com/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://github.com/login" target="_blank"><i class="fab fa-github"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="containr custom-container d-flex justify-content-center flex-column align-items-center mt-4">
+                    <div class="footer-logo my-4">
+                        <img src="images/footer-logo.png" alt="footer logo" class="img-fluid" />
+                    </div>
+                    <div class="footer-list">
+                        <ul class="d-flex flex-wrap justify-content-center">
+                            <li>Gemmksovereenkomst .</li>
+                            <li>Privacyverklaring .</li>
+                            <li>Responsible Disclosure</li>
+                        </ul>
+                    </div>
+                    <p class="copyright-text">
+                        Copyright 0 2020 Mollie B.V. All rights reserved.
+                    </p>
+                </div>
+            </footer>
+        </section>
+        <!-- /footer -->
+        <!-- help-copyright -->
+        <div class="help-copyright">
+            <div class="container custom-container">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <p class="footer-copy-para">
+                            @ Fiverr International Limited 2010 - 2018
+                        </p>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <ul class="help-copyright-ul">
+                            <li class="help-copyright-list-item">
+                                <a href="terms&conditions.html" target="_blank" class="help-copyright-link">terms of services</a>
+                            </li>
+                            <li class="help-copyright-list-item">
+                                <a href="privacy-policy.html" class="help-copyright-link" target="_blank">privacy policy</a>
+                            </li>
+                            <li class="help-copyright-list-item" target="_blank">
+                                <a href="help&support.html" class="help-copyright-link" target="_blank">support</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/ help-copyright -->
+        <!-- Modal sign in -->
+        <div class="modal fade sign-in-modal" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header border-0">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                    </div>
+                    <h5 class="modal-title" id="exampleModalLabel">login to hihello</h5>
+                    <div class="modal-body px-4">
+                        <form action="#" method="post" class="login-page-form">
+                            <input type="text" class="user-name-login" placeholder="email / username" required />
+                            <input type="password" class="user-pass-login" placeholder="******" required />
+                            <button type="submit" class="cont-btn">continue</button>
+                            <div class="d-flex justify-content-between align-items-center mt-4 mb-2 rsponsive-remember-me">
+                                <div class="d-flex align-items-center form-group mb-0">
+                                    <input type="checkbox" id="remember" />
+                                    <label for="remember" class="text-capitalize">remember me.</label>
+                                </div>
+                                <a href="forgot-password.html" target="_blank" class="fg-link">forgot password</a>
+                            </div>
+                            <div class="or-group"><samp></samp><span>or</span><samp></samp></div>
+                            <button type="button" class="fb-btn-link mb-2">
+                                    <span><i class="fab fa-facebook-f"></i></span>
+                                    continue with facebook
+                                </button>
+                            <button type="button" class="fb-btn-link mb-2 google-btn">
+                                    <span><img src="images/google-icon.png" alt="google image" class="img-fluid" /></span>
+                                    continue with google
+                                </button>
+                        </form>
+                    </div>
+                    <div class="modal-footer d-flex justify-content-center align-items-center border-0">
+                        <p class="not-a-member">not a member yet? <a href="#" data-toggle="modal" data-target="#sign-ip-Modal">join now</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/ Modal sign in -->
+        <!-- Modal sign up -->
+        <div class="modal fade sign-in-modal" id="sign-ip-Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header border-0">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                    </div>
+                    <h5 class="modal-title" id="exampleModalLabel">join hihello</h5>
+                    <div class="modal-body px-4">
+                        <form action="#" method="post" class="login-page-form sign-up-page-form">
+                            <input type="email" class="user-name-login" placeholder="enter your email" required />
+                            <button type="submit" class="cont-btn next-btn-cont">continue</button>
+                            <div class="or-group"><samp></samp><span>or</span><samp></samp></div>
+                            <button type="button" class="fb-btn-link mb-2">
+                                    <span><i class="fab fa-facebook-f"></i></span>
+                                    continue with facebook
+                                </button>
+                            <button type="button" class="fb-btn-link mb-2 google-btn">
+                                    <span><img src="images/google-icon.png" alt="google image" class="img-fluid" /></span>
+                                    continue with google
+                                </button>
+                        </form>
+                        <form action="#" method="post" class="login-page-form sign-up-modal-box">
+                            <input type="text" class="user-name-login" placeholder="choose a username" required />
+                            <input type="password" class="user-pass-login" placeholder="******" required />
+                            <p class="instruction">
+                                8 characters or longer. Combine upper and lowercase letters and numbers.
+                            </p>
+                            <button type="submit" class="cont-btn">join</button>
+                            <div class="max-width text-center mx-auto">
+                                <p class="joining-para">By joining, you agree to Fiverr’s <a href="terms&conditions.html" target="_blank">Terms of Service</a>, as well as to receive occasional emails from us.</p>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer d-flex justify-content-center align-items-center border-0">
+                        <p class="not-a-member">already a member? <a href="#" data-toggle="modal" data-target="#exampleModal">login</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/ Modal sign up -->
+        <div class="scrolltop">
+            <div class="scroll icon"><i class="fas fa-chevron-up"></i></div>
+        </div>
+    </div>
+    <!-- script files -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/side.js"></script>
+    <!-- /script files -->
+</body>
+
+</html>

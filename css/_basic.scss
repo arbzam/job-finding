@@ -1,0 +1,115 @@
+@import "variables";
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p,
+li,
+label {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: $montserat;
+    height: 100%;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: $montserat;
+    height: 100%;
+}
+
+.custom-container.container {
+    max-width: 1550px;
+    margin: auto;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+button,
+input {
+    &:hover {
+        outline: none !important;
+    }
+    &:focus {
+        outline: none !important;
+        box-shadow: none !important;
+    }
+}
+
+.user-profile-menu {
+    border: 0;
+    .dropdown-item {
+        &:last-of-type {
+            margin-bottom: 0;
+        }
+        &:active {
+            background: transparent;
+            border: 0;
+        }
+        transition: $transition;
+        &:hover {
+            border-color: transparent;
+            background: $primary;
+            color: $text-white;
+        }
+    }
+}
+
+select {
+    &:focus {
+        outline: none;
+    }
+}
+
+button {
+    border: 0;
+    cursor: pointer;
+}
+
+.side {
+    .user-profile-menu {
+        z-index: 3;
+        right: -9px;
+        top: 50px;
+        box-shadow: $box-shadow;
+    }
+    .chevron-style {
+        &::before {
+            position: absolute;
+            content: "";
+            width: 0;
+            height: 0;
+            border-left: 8px solid transparent;
+            border-right: 8px solid transparent;
+            border-bottom: 10px solid #38b1ad;
+            left: 30px;
+            right: auto;
+            top: 54px;
+        }
+    }
+}
+
+@media (min-width: 991px) {
+    .click-profile.d-n {
+        display: none;
+    }
+}

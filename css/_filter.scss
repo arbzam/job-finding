@@ -1,0 +1,220 @@
+.filter-div {
+    max-width: 29%;
+    max-height: 100%;
+    padding: 30px;
+    background: $text-white;
+    position: relative;
+    top: -50px;
+    box-shadow: $box-shadow;
+    .filter-head {
+        font-family: $montserat;
+        font-weight: 800;
+        font-size: 22px;
+        text-transform: capitalize;
+        color: $head-clr;
+        margin-bottom: 30px;
+    }
+    .seller-profile {
+        border: 1px solid $border-clr;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+        .seller-profile-image {
+            max-height: 90px;
+            max-width: 90px;
+            min-height: 90px;
+            min-width: 90px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: $img-placeholder;
+            border-radius: 50px;
+            overflow: hidden;
+            margin-right: 20px;
+            img {
+                max-width: 100%;
+                max-height: 100%;
+                object-fit: cover;
+            }
+        }
+        .seller-profile-text {
+            .label {
+                font-family: $montserat;
+                font-weight: 600;
+                font-size: 15px;
+                text-transform: capitalize;
+                color: $filter-main-clr;
+            }
+            .mail {
+                font-family: $montserat;
+                font-weight: 500;
+                font-size: 15px;
+                text-transform: lowercase;
+                color: $text-9;
+            }
+            .profile-link {
+                font-family: $montserat;
+                font-weight: 600;
+                font-size: 12px;
+                text-transform: capitalize;
+                color: #38b1ad;
+            }
+        }
+    }
+    .bottom-data {
+        padding: 30px 0;
+        .bottom-data-label-clr,
+        .bottom-data-head-clr {
+            font-weight: 600;
+            font-size: 14px;
+            text-transform: capitalize;
+            color: $filter-main-clr;
+            font-family: $montserat;
+            transition: $transition;
+            &:hover {
+                color: $secondary;
+            }
+        }
+        .bottom-data-head-clr {
+            color: $filter-main-clr;
+            font-size: 15px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            font-family: $montserat;
+            margin-left: 10px;
+            &:hover {
+                i {
+                    color: $text-black;
+                }
+            }
+        }
+        i {
+            color: $breadcrumb-btn;
+        }
+        .bottom-data-label-clr {
+            color: $breadcrumb-btn;
+        }
+    }
+    .help-center {
+        padding: 30px 0;
+        .bottom-data-head-clr {
+            color: $filter-main-clr;
+            font-size: 14px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            text-transform: capitalize;
+            i {
+                margin-right: 10px;
+            }
+        }
+        .bottom-data-label-clr.help-icon {
+            width: 15px;
+            height: 15px;
+            border-radius: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid $text-9;
+            color: $text-9;
+            padding: 10px;
+            font-size: 12px;
+            background-color: transparent;
+            line-height: 15px;
+            cursor: pointer;
+            transition: $transition;
+            &:hover {
+                box-shadow: $box-shadow;
+            }
+        }
+    }
+    .start-selling {
+        border: 1px solid $border-clr;
+        min-width: 98%;
+        margin: auto;
+        padding: 20px;
+        margin-bottom: 30px;
+        .start-selling-image {
+            max-width: 73px;
+            max-height: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: auto;
+            margin-bottom: 20px;
+        }
+        .start-selling-text {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            h2 {
+                font-family: $montserat;
+                font-weight: 600;
+                font-size: 22px;
+                text-transform: capitalize;
+                color: #b9051d;
+                text-align: center;
+                margin-bottom: 10px;
+            }
+            p {
+                font-family: $montserat;
+                font-weight: 500;
+                font-size: 15px;
+                text-transform: capitalize;
+                color: $para-clr;
+                text-align: center;
+                margin-bottom: 10px;
+            }
+            .get-start {
+                padding: 10px 30px;
+                border: 1px solid #b9051d;
+                border-radius: 30px;
+                color: #b9051d;
+                font-family: $montserat;
+                font-weight: 600;
+                font-size: 18px;
+                text-transform: capitalize;
+                background: $text-white;
+                transition: $transition;
+                cursor: pointer;
+                &:hover {
+                    background: #b9051d;
+                    border-color: $text-white;
+                    color: $text-white;
+                }
+            }
+        }
+    }
+    .filter-btn {
+        width: 100%;
+        padding: 14px 40px;
+        background: $text-black;
+        font-family: $montserat;
+        font-weight: 800;
+        font-size: 14px;
+        text-transform: capitalize;
+        color: $text-white;
+        text-align: center;
+        transition: $transition;
+        cursor: pointer;
+        border: 0;
+        &:hover {
+            background: $primary;
+            box-shadow: $box-shadow;
+        }
+    }
+    .filter-link {
+        font-family: $montserat;
+        font-weight: 700;
+        font-size: 16px;
+        text-transform: capitalize;
+        color: $text-black;
+        text-align: center;
+        text-decoration: underline;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}

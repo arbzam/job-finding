@@ -1,0 +1,227 @@
+.first-name,
+.last-name,
+.user-name,
+.phone-number,
+.email-field,
+.gender-select,
+.date,
+.company,
+.home-address,
+.office-address,
+.password,
+.confirm-password,
+.user-name-login,
+.user-pass-login {
+    width: 100%;
+    border: 1px solid $border-clr;
+    border-radius: 3px;
+    padding: 15px;
+    margin-bottom: 20px;
+    font-family: $montserat;
+    color: $para-clr;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 500;
+    &::placeholder {
+        font-family: $montserat;
+        color: $para-clr;
+        text-transform: capitalize;
+        font-size: 14px;
+        font-weight: 500;
+        transition: $transition;
+    }
+    &:focus {
+        outline: none;
+        &::placeholder {
+            font-size: 16px;
+        }
+    }
+}
+
+.home-address,
+.office-address {
+    height: 150px;
+    overflow-y: auto;
+}
+
+.register-btn {
+    padding: 10px 30px;
+    font-family: $montserat;
+    color: $para-clr;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 500;
+    @extend .flex-class;
+    background: #319795;
+    border-radius: 4px;
+    color: $text-white;
+    transition: $transition;
+    &:hover {
+        box-shadow: $box-shadow;
+    }
+}
+
+.cont-btn {
+    @extend .help-center-btn;
+    border-radius: 4px;
+    padding: 10px 40px;
+    width: 100%;
+    font-size: 16px;
+}
+
+.fb-btn-link {
+    @extend .help-center-btn;
+    border-radius: 4px;
+    padding: 14px 40px;
+    width: 100%;
+    font-size: 16px;
+    background: #4267b2;
+    position: relative;
+    span {
+        position: absolute;
+        left: 20px;
+        i {
+            font-size: 18px;
+        }
+    }
+}
+
+.fg-link {
+    font-family: $montserat;
+    color: $fiver-clr;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 14px;
+    transition: $transition;
+    &:hover {
+        text-decoration: none;
+        color: $primary;
+    }
+}
+
+// custom checkbox
+.form-group input {
+    padding: 0;
+    height: initial;
+    width: initial;
+    margin-bottom: 0;
+    display: none;
+    cursor: pointer;
+}
+
+.form-group label {
+    position: relative;
+    cursor: pointer;
+    font-family: $montserat;
+    color: $text-6;
+    // text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.form-group label:before {
+    content: "";
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: 1px solid $fiver-clr;
+    box-shadow: $div-shadow;
+    padding: 8px;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-right: 6px;
+}
+
+.form-group input:checked+label:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: 6px;
+    width: 6px;
+    height: 11px;
+    border: solid $secondary;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.or-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    span {
+        font-family: $montserat;
+        color: $fiver-clr;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 14px;
+        transition: $transition;
+        padding: 0 5px;
+    }
+    samp {
+        border-bottom: 1px solid $border-clr;
+        width: 100%;
+    }
+}
+
+.google-btn {
+    color: #ea4235;
+    background: transparent;
+    border: 1px solid #ea4235;
+    // background: #ea4235;
+}
+
+.not-a-member {
+    font-family: $montserat;
+    color: $text-6;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 14px;
+    transition: $transition;
+    padding: 0 5px;
+    a {
+        font-family: $montserat;
+        color: $fiver-clr;
+        text-transform: capitalize;
+        font-weight: 500;
+        font-size: 14px;
+        transition: $transition;
+        &:hover {
+            text-decoration: none;
+            color: $primary;
+        }
+    }
+}
+
+// responsive
+@media (max-width: 325px) {
+    .rsponsive-remember-me {
+        flex-direction: column;
+        .fg-link {
+            margin-top: 10px;
+        }
+    }
+    .fb-btn {
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 12px;
+    }
+}
+
+.instruction,
+.joining-para {
+    font-family: $montserat;
+    color: $para-clr;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 500;
+    transition: $transition;
+}
+
+.joining-para {
+    font-size: 12px;
+}

@@ -1,0 +1,69 @@
+.user-profile-menu {
+    overflow-y: auto;
+}
+
+.user-profile-menu::-webkit-scrollbar {
+    width: 2px;
+}
+
+
+/* Track */
+
+.user-profile-menu::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+
+/* Handle */
+
+.user-profile-menu::-webkit-scrollbar-thumb {
+    background: $secondary;
+}
+
+.inside-links-container::-webkit-scrollbar {
+    width: 2px;
+}
+
+.inside-links-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.inside-links-container::-webkit-scrollbar-thumb {
+    background: $secondary;
+}
+
+.home-address::-webkit-scrollbar {
+    width: 2px;
+}
+
+.home-address::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.home-address::-webkit-scrollbar-thumb {
+    background: $secondary;
+}
+
+.office-address::-webkit-scrollbar {
+    width: 2px;
+}
+
+.office-address::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.office-address::-webkit-scrollbar-thumb {
+    background: $secondary;
+}
+
+.head-link.dropdown-menu::-webkit-scrollbar {
+    width: 2px;
+}
+
+.head-link.dropdown-menu::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.head-link.dropdown-menu::-webkit-scrollbar-thumb {
+    background: $secondary;
+}

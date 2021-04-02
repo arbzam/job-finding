@@ -1,0 +1,390 @@
+.filter-div.contact-filter {
+    background: transparent;
+    box-shadow: none;
+    padding: 0;
+}
+
+.congrats-div {
+    background: $text-white;
+    padding: 30px;
+    box-shadow: $box-shadow;
+    margin-bottom: 20px;
+    .congrats-head {
+        @include important-text;
+        font-weight: 800;
+        font-size: 21px;
+        text-transform: capitalize;
+        margin-bottom: 10px;
+    }
+    .congrats-para {
+        @include important-text;
+        color: $head-clr;
+        font-weight: 500;
+        text-transform: capitalize;
+        font-size: 14px;
+        line-height: 22px;
+        font-family: $poppins;
+    }
+    .tel,
+    .mail {
+        color: $head-clr;
+        font-weight: 500;
+        text-transform: capitalize;
+        font-size: 14px;
+        line-height: 22px;
+        font-family: $poppins;
+        display: flex;
+        align-items: center;
+        margin-bottom: 6px;
+        &:hover {
+            a {
+                color: $primary !important;
+            }
+        }
+        a {
+            margin: 0 5px;
+            color: $text-black;
+            font-family: $montserat;
+            transition: $transition;
+            font-weight: 600;
+        }
+    }
+    .mail {
+        a {
+            font-weight: 800;
+            font-family: $poppins;
+            margin-left: 0;
+            text-decoration: underline;
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+    .check-faq {
+        width: 100%;
+        @include important-text;
+        background: $text-black;
+        font-size: 14px;
+        font-weight: 800;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: $text-white;
+        padding: 10px;
+        cursor: pointer;
+        border: 0;
+        transition: $transition;
+        &:hover {
+            box-shadow: $box-shadow;
+            background: $primary;
+        }
+    }
+}
+
+.congrats-div.black-div {
+    background: $text-black;
+    color: $text-white;
+    h2 {
+        color: $text-white;
+    }
+    p {
+        color: $text-white;
+    }
+    .check-faq.ga {
+        background: $text-white;
+        color: $text-black;
+        font-weight: 900;
+    }
+}
+
+.congrats-div.black-div.job-postal-first-div {
+    .congrats-para {
+        margin-bottom: 0;
+    }
+}
+
+.black-div {
+    color: $text-white;
+    background: $text-black;
+    border-radius: 5px;
+    box-shadow: $box-shadow;
+    padding: 30px;
+    h2 {
+        font-family: $montserat;
+        font-weight: 700;
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    p {
+        font-family: $montserat;
+        font-weight: 400;
+        font-size: 16px;
+    }
+    .black-div-para-con {
+        max-width: 700px;
+    }
+}
+
+.contact-form {
+    border: 1px solid $border-clr;
+    max-width: 100%;
+    padding: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    .contact-left-head {
+        font-weight: 700;
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+    p {
+        color: $text-black;
+        font-family: $montserat;
+        font-weight: 500;
+        font-size: 14px;
+    }
+}
+
+.field-div-max-width {
+    min-width: 70%;
+}
+
+.form-div-container {
+    margin: 20px 0;
+    label {
+        color: $text-black;
+        font-family: $montserat;
+        font-weight: 700;
+        font-size: 16px;
+        text-transform: capitalize;
+        span {
+            color: #3db1ad;
+            font-weight: 600;
+            font-size: 16px;
+            font-family: $montserat;
+        }
+    }
+}
+
+.je-name,
+.e-mail,
+.vraag,
+.onderwerp {
+    background: transparent;
+    color: $text-9;
+    border-color: $border-clr;
+    border: 1px solid $border-clr;
+    border-radius: 0;
+    width: 100%;
+    padding: 10px;
+    &::placeholder {
+        color: $text-6;
+        font-size: 13px;
+        transition: $transition;
+        text-transform: capitalize;
+        font-weight: 500;
+    }
+    &:focus {
+        transition: $transition;
+        outline: none !important;
+        &::placeholder {
+            font-size: 16px;
+        }
+    }
+}
+
+.vraag {
+    height: 100px;
+    overflow: auto;
+}
+
+.contact-form-submit-container {
+    display: flex;
+    justify-content: flex-end;
+    .contact-submit {
+        min-height: 50px;
+        border-radius: 0;
+        background: #3db1ad;
+        font-family: $montserat;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: $text-white;
+        font-weight: 600;
+        text-transform: capitalize;
+        padding: 5px 80px;
+        border: 0;
+        transition: $transition;
+        cursor: pointer;
+        box-shadow: $box-shadow;
+        &:hover {
+            background: $primary;
+        }
+    }
+}
+
+.young-capital-div {
+    border-bottom: 1px solid $border-clr;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    .young-capital-head {
+        font-weight: 800;
+        font-size: 22px;
+        margin-bottom: 15px;
+        font-family: $montserat;
+        color: $text-black;
+    }
+    .young-image-div {
+        max-width: 789px;
+        max-height: 415px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: $img-placeholder;
+        margin-bottom: 40px;
+        overflow: hidden;
+        img {
+            max-height: 100%;
+            max-width: 100%;
+        }
+    }
+}
+
+.tel,
+.mail {
+    color: $head-clr;
+    font-weight: 500;
+    // text-transform: capitalize;
+    font-size: 14px;
+    line-height: 22px;
+    font-family: $poppins;
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+    &:hover {
+        a {
+            color: $primary !important;
+        }
+    }
+    a {
+        margin: 0 5px;
+        color: $text-black;
+        font-family: $montserat;
+        transition: $transition;
+        font-weight: 600;
+    }
+}
+
+.mail {
+    a {
+        font-weight: 800;
+        font-family: $poppins;
+        margin-left: 0;
+        text-decoration: underline;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}
+
+.young-capital-text {
+    font-weight: 500;
+    color: $text-9;
+    margin-bottom: 5px;
+}
+
+.young-capital-profiles {
+    display: flex;
+    padding-right: 10px;
+    border-bottom: 1px solid $border-clr;
+    margin-bottom: 20px;
+    box-shadow: $div-shadow;
+    align-items: center;
+    transition: $transition;
+    &:hover {
+        box-shadow: $box-shadow;
+    }
+    &:last-of-type {
+        margin-bottom: 0;
+    }
+    .young-capital-head {
+        font-weight: 800;
+        font-size: 22px;
+        margin-bottom: 15px;
+        font-family: $montserat;
+        color: $text-black;
+        text-transform: capitalize;
+        margin-bottom: 20px;
+    }
+    .profile-image-capital {
+        max-width: 295px;
+        max-height: 220px;
+        min-width: 295px;
+        min-height: 220px;
+        background: $img-placeholder;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        margin-right: 20px;
+        overflow: hidden;
+        img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+    }
+}
+
+// responsive style
+@media (max-width: 1024px) {
+    .young-capital-profiles {
+        .young-capital-head {
+            font-size: 20px;
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .young-capital-profiles {
+        flex-wrap: wrap;
+        box-shadow: none;
+    }
+    .profile-image-capital {
+        margin-left: 0 !important;
+        margin-bottom: 20px !important;
+    }
+    .job-postal-div.contact-div {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 476px) {
+    .form-div-container {
+        flex-direction: column;
+        width: 100%;
+        display: flex !important;
+        align-items: flex-start !important;
+    }
+    .contact-form {
+        padding: 10px;
+    }
+    .field-div-max-width {
+        min-width: 100%;
+    }
+}
+
+@media (max-width: 375px) {
+    .congrats-div .check-faq {
+        font-size: 12px;
+        font-weight: 700;
+    }
+    .young-capital-profiles .profile-image-capital {
+        min-width: 100%;
+        min-height: auto;
+    }
+    .mail,
+    .tel {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

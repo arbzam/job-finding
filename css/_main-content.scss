@@ -1,0 +1,20 @@
+.main-content-section {
+    background: #f9f9f9;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+}
+
+.first-main-content {
+    display: flex;
+    justify-content: space-between !important;
+}
+
+.slider {
+    max-width: 1550px;
+    margin: auto;
+}
+
+.container-selector-btn {
+    min-width: calc(100% - 36%);
+    margin: auto;
+}

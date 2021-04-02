@@ -1,0 +1,65 @@
+.breadcrumb-section {
+    background: url("../images/slider-1.png");
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    background-size: cover;
+    .selector-btn {
+        font-family: $montserat;
+        font-weight: 900;
+        text-transform: capitalize;
+        color: $text-white;
+        padding: 10px 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 0;
+        cursor: pointer;
+        transition: $transition;
+        background-color: $zoken-bg;
+        font-size: 15px;
+        &:hover {
+            box-shadow: $box-shadow;
+            background: $breadcrumb-btn;
+        }
+    }
+}
+
+.breadcrumb-list {
+    display: flex;
+    .bread-item {
+        display: flex;
+        align-items: center;
+        &:first-of-type {
+            padding-left: 0;
+        }
+        .bread-link {
+            color: $text-black;
+            font-family: $montserat;
+            font-size: 18px;
+            font-weight: 600;
+            text-transform: capitalize;
+            transition: $transition;
+            &:hover {
+                color: $primary;
+            }
+        }
+        .bread-icon {
+            color: $fiver-clr;
+            font-size: 12px;
+            padding: 0 10px;
+        }
+        &:last-of-type {
+            .bread-icon {
+                display: none;
+            }
+        }
+    }
+}
+
+.active-bread-link {
+    color: $fiver-clr !important;
+}

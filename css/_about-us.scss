@@ -1,0 +1,32 @@
+.about-us-para {
+    width: 100%;
+    font-family: $poppins;
+    font-size: 14px;
+    font-weight: 400;
+    color: $text-9;
+    margin-top: 20px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.speak-image.expert-image {
+    max-width: 700px;
+}
+
+.float-image {
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+
+@media (max-width: 991px) {
+    .float-image {
+        float: none;
+    }
+}
+
+@media (max-width: 425px) {
+    .expert-container.about-container {
+        padding: 0;
+    }
+}

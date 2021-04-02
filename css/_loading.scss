@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#loading-screen {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    background: url("../images/loader.gif") #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 9999;
+}

@@ -1,0 +1,324 @@
+.carousel-inner.inner-width {
+    max-width: 100%;
+    background: $img-placeholder;
+    max-height: 330px;
+    img {
+        max-height: 100%;
+        max-width: 100%;
+    }
+}
+
+.carousel-indicators.front-page-slider {
+    justify-content: flex-start;
+    bottom: 20px;
+    left: -120px;
+    li {
+        border-radius: 100%;
+        height: 15px;
+        width: 15px;
+        background: transparent;
+        border: 2px solid $text-white;
+        cursor: pointer;
+        transition: $transition;
+        &:hover {
+            box-shadow: $box-shadow;
+        }
+    }
+    li.active {
+        background: $text-white;
+    }
+}
+
+.popular-services {
+    margin: 40px 0;
+}
+
+.popular-head {
+    @extend .canada-head;
+    color: $text-black;
+}
+
+.view-all {
+    @extend .help-center-btn;
+    margin: 0;
+}
+
+.jobs-gigs {
+    margin: 40px 0;
+}
+
+.jobs-ul {
+    display: flex;
+    // flex-wrap: wrap;
+    .jobs-list-item {
+        margin: 15px;
+        max-width: 225px;
+        &:first-of-type {
+            margin-left: 0;
+        }
+        &:last-of-type {
+            margin-right: 0;
+        }
+        &:hover {
+            box-shadow: $box-shadow;
+        }
+    }
+}
+
+.card-job {
+    border: 1px solid $border-clr;
+    max-width: 225px;
+    min-height: 285px;
+    transition: $transition;
+    cursor: pointer;
+    &:hover {
+        box-shadow: $box-shadow;
+    }
+    .job-image-container {
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: $img-placeholder;
+        max-height: 130px;
+        overflow: hidden;
+    }
+}
+
+.job-text {
+    padding: 10px;
+    .job-profile-image {
+        max-width: 30px;
+        max-height: 30px;
+        min-height: 30px;
+        min-width: 30px;
+        border-radius: 100%;
+        overflow: hidden;
+        margin-right: 10px;
+        img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: cover;
+        }
+    }
+    .user-profile-name {
+        font-size: 12px;
+        a {
+            color: $text-black;
+            font-size: 600;
+            font-family: $montserat;
+            max-width: 115px;
+            display: block;
+        }
+    }
+    .levels {
+        color: #cccccc;
+        font-size: 12px;
+        font-weight: 600;
+        font-family: $montserat;
+        text-transform: capitalize;
+    }
+    .gig-heart-btn {
+        background: none;
+        transition: $transition;
+        max-width: 20px;
+        margin-left: auto;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+
+.title-container {
+    margin: 10px 0;
+    .title-p {
+        color: $text-black;
+        font-size: 14px;
+        font-weight: 500;
+        font-family: $montserat;
+        text-transform: lowercase;
+    }
+}
+
+.gig-ul {
+    display: flex;
+    align-items: center;
+    li {
+        margin: 0 4px;
+        &:first-of-type {
+            margin-left: 0;
+        }
+    }
+    .gig-star {
+        font-size: 13px;
+        color: #ffbd11;
+    }
+    .rating-number {
+        font-size: 14px;
+        color: #ffbd11;
+        font-family: $poppins;
+        font-weight: 500;
+    }
+    .complete-order {
+        font-size: 14px;
+        color: #cccccc;
+        font-family: $poppins;
+        font-weight: 500;
+    }
+}
+
+.starting-price {
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    p {
+        font-size: 14px;
+        color: $text-black;
+        font-family: $poppins;
+        font-weight: 400;
+        text-transform: uppercase;
+        span {
+            font-size: 20px;
+            font-weight: 700;
+            color: $text-6;
+            margin-left: 6px;
+        }
+    }
+}
+
+.controls-top.gig-arrows {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+    .gig-btn {
+        height: 30px;
+        width: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $text-white;
+        color: $text-black;
+        border-radius: 50%;
+        box-shadow: $box-shadow;
+        cursor: pointer;
+        transition: $transition;
+        &:hover {
+            background: $fiver-clr;
+            i {
+                color: $text-white;
+            }
+        }
+        i {
+            color: $text-black;
+            font-size: 10px;
+        }
+    }
+}
+
+.gig-btn.ll {
+    margin-left: -10px;
+}
+
+.gig-btn.rr {
+    margin-right: -10px;
+}
+
+// responsive
+@media (max-width: 1250px) {
+    .starting-price p {
+        font-size: 12px;
+    }
+    .jobs-ul .jobs-list-item {
+        margin: 4px;
+    }
+    .commen-row {
+        .col-md-3 {
+            padding: 0 10px;
+        }
+    }
+}
+
+@media (max-width: 1191px) {
+    .job-text .user-profile-name a {
+        max-width: 80px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .job-postal-div.jobs-div {
+        padding: 10px;
+    }
+    .job-text .user-profile-name a {
+        max-width: 70px;
+    }
+    .filter-div.filter-job-div {
+        padding: 10px;
+    }
+    .commen-row {
+        .col-md-3 {
+            padding: 0 4px;
+        }
+    }
+    .carousel-indicators.front-page-slider {
+        left: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .jobs-ul {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .jobs-list-item {
+        min-width: 33%;
+        &:first-of-type {
+            margin-left: 4px !important;
+        }
+        &:last-of-type {
+            margin-right: 4px !important;
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .card-job {
+        margin: auto;
+        margin-bottom: 30px;
+        max-width: 270px;
+    }
+}
+
+@media (max-width: 476px) {
+    .jobs-list-item {
+        min-width: 50%;
+    }
+    .jobs-filter-responsive {
+        flex-direction: column;
+        justify-content: center !important;
+        .popular-head {
+            margin-bottom: 20px;
+        }
+    }
+    .controls-top.gig-arrows {
+        position: static !important;
+        margin-top: 40px;
+        width: 20% !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .controls-top.gig-arrows.arrows-second,
+    .controls-top.gig-arrows.arrows-thid,
+    .controls-top.gig-arrows.arrows-forth {
+        margin-top: -40px;
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 325px) {
+    .jobs-filter-responsive .popular-head {
+        text-align: center;
+    }
+}

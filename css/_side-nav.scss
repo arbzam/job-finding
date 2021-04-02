@@ -1,0 +1,141 @@
+.side {
+    max-width: 280px;
+    background: $text-white;
+    position: fixed;
+    border: 1px solid $border-clr;
+    z-index: 3;
+    height: 100%;
+    min-height: 100%;
+    min-width: 270px;
+    transform: translate(-320px);
+    display: none;
+    .custom-ul .nav-item .nav-link {
+        font-weight: 500;
+        font-size: 14px;
+    }
+    .custom-ul .nav-item {
+        padding: 10px 17px;
+    }
+    .scroll {
+        width: 100%;
+        .working-nav-ul {
+            .nav-item {
+                margin: 0;
+                padding: 0;
+            }
+        }
+        .drop-menu {
+            padding: 20px;
+            box-shadow: $box-shadow;
+        }
+    }
+    .pos-re {
+        .drop-menu {
+            min-width: 100% !important;
+            display: block;
+        }
+    }
+    .working-nav-ul {
+        min-width: 100%;
+        padding: 0px;
+    }
+    .navbar-toggler {
+        display: none;
+    }
+    .logo-div {
+        display: none;
+    }
+    .custom-ul {
+        display: block;
+        margin-left: 0 !important;
+        .nav-item {
+            display: block;
+            .nav-link {
+                display: block;
+            }
+        }
+    }
+    .working-nav {
+        background: $text-white !important;
+    }
+    .chev-down {
+        i {
+            font-size: 14px;
+        }
+    }
+}
+
+.side-bar-icon {
+    font-size: 20px;
+    padding: 6px;
+    background: $fiver-clr;
+    color: $text-white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: $transition;
+    margin-right: 20px;
+    z-index: 2;
+    display: none;
+    &:hover {
+        box-shadow: $box-shadow;
+    }
+}
+
+.wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.overlay-wrapper {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+    display: none;
+}
+
+@media (max-width: 1024px) {
+    .side {
+        overflow-y: auto;
+        display: block;
+        .working-nav {
+            display: block !important;
+            .working-nav-ul {
+                display: block !important;
+            }
+            .bar {
+                display: none;
+            }
+        }
+    }
+    .side-bar-icon {
+        display: inline-block;
+        padding: 2px;
+        min-width: 30px;
+        display: flex;
+        min-height: 30px;
+    }
+    .d-none-1024 {
+        display: none;
+    }
+    .relative-pos {
+        border: 0;
+    }
+    .overlay-wrapper {
+        display: block;
+    }
+}
+
+@media (max-width: 991px) {
+    .working-nav {
+        margin-top: 460px;
+    }
+}

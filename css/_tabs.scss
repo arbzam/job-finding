@@ -1,0 +1,40 @@
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+#tabs {
+    color: $text-black;
+}
+
+#tabs h6.section-title {
+    color: $text-black;
+}
+
+.nav-tabs {
+    border-bottom: 0;
+}
+
+#tabs .nav-tabs .nav-link {
+    color: $text-black;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0px 10px;
+    border: 0;
+    &:first-of-type {
+        margin-left: 0;
+        padding-left: 0px;
+    }
+}
+
+#tabs .nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: $text-black;
+    background-color: transparent;
+    border-bottom: 3px solid;
+    font-weight: 600;
+    border: 0;
+    border-bottom: 3px solid #1dbf73 !important;
+}

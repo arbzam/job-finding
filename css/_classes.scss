@@ -1,0 +1,213 @@
+// font size
+.font-size-30 {
+    font-size: 30px;
+}
+
+.font-size-28 {
+    font-size: 28px;
+}
+
+.font-size-26 {
+    font-size: 26px;
+}
+
+.font-size-24 {
+    font-size: 24px;
+}
+
+.font-size-22 {
+    font-size: 22px;
+}
+
+.font-size-20 {
+    font-size: 20px;
+}
+
+.font-size-18 {
+    font-size: 18px;
+}
+
+.font-size-16 {
+    font-size: 16px;
+}
+
+.font-size-14 {
+    font-size: 14px;
+}
+
+.font-size-12 {
+    font-size: 12px;
+}
+
+.font-size-10 {
+    font-size: 10px;
+}
+
+// font size ends
+.font-weight-800 {
+    font-weight: 800 !important;
+}
+
+.downloads-clr {
+    color: #344765 !important;
+}
+
+.pending-clr {
+    color: #ff528f !important;
+}
+
+.div-border-bottom {
+    border-bottom: 1px solid $border-clr;
+}
+
+.equal-padding {
+    padding: 100px 0;
+}
+
+.equal-margin {
+    margin-top: 100px;
+}
+
+.primary-clr {
+    color: $primary !important;
+}
+
+.margin-30 {
+    margin: 30px 0;
+}
+
+.alert {
+    margin-bottom: 0;
+}
+
+.max-width {
+    max-width: 300px;
+}
+
+.min-width {
+    min-width: 65%;
+}
+
+.px-40 {
+    padding: 0 40px;
+}
+
+.min-height {
+    min-height: 100vh;
+}
+
+.p-50 {
+    padding: 50px 0;
+}
+
+.bread-clr {
+    color: $breadcrumb-btn !important;
+}
+
+.p-time {
+    color: #f08d3c !important;
+}
+
+.temp {
+    color: #e5719d !important;
+}
+
+.p-100 {
+    padding: 100px 0 !important;
+}
+
+.bg-trans {
+    background: transparent !important;
+}
+
+.text-6 {
+    color: $text-6 !important;
+}
+
+.font-300 {
+    font-weight: 300 !important;
+}
+
+.special-bg {
+    background: #f1f3f9;
+    max-width: 80%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.margin-100 {
+    margin: 100px 0;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.position-static {
+    position: static !important;
+}
+
+.mt-60 {
+    margin-top: 60px;
+}
+
+.pr-30-md {
+    padding-right: 30px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.box-shadow {
+    box-shadow: $box-shadow;
+}
+
+.pt-23 {
+    padding-top: 23px !important;
+}
+
+.max-2000 {
+    max-width: 2000px !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.side-transform {
+    transform: translate(0px) !important;
+    transition: $transition;
+}
+
+html,
+body {
+    position: relative;
+}
+
+.trans {
+    transition: $transition;
+}
+
+.toggleclr {
+    color: #38b1ad;
+}
+
+.width-80 {
+    width: 60%;
+}
+
+@media (max-width: 1024px) {
+    .remove-padding-responsive.p-100 {
+        padding-bottom: 0 !important;
+    }
+}
+
+@media (max-width: 991px) {
+    .width-80 {
+        min-width: 100%;
+        width: 100%;
+    }
+}

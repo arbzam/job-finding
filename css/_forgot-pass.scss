@@ -1,0 +1,26 @@
+.forgt-pass-div {
+    min-width: 200px;
+    max-width: 200px;
+    padding: 20px;
+    background: $text-white;
+    box-shadow: $box-shadow;
+    margin: auto;
+    min-width: 500px;
+    border-radius: 4px;
+}
+
+.forgot-pass-para {
+    font-family: $montserat;
+    color: $text-black;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 600;
+    transition: $transition;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 576px) {
+    .forgt-pass-div {
+        min-width: 100%;
+    }
+}

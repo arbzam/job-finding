@@ -1,0 +1,64 @@
+$primary: #129ae8;
+$secondary: #0b1315;
+$head-clr: #000;
+$para-clr: #b3a5b2;
+$text-9: #999;
+$text-6: #666666;
+// $montserat: "Montserrat",
+// sans-serif;
+// $montserat: 'Roboto',
+// sans-serif;
+$montserat: "Lato",
+sans-serif;
+$poppins: "Poppins",
+sans-serif;
+$img-placeholder: #ecf0f1;
+$transition: 0.4s ease-in-out;
+$border-clr: #eaedf2;
+$caret-clr: #cccccc;
+$working-nav-clr: #08b812;
+$text-white: #fff;
+$breadcrumb-btn: #38b1ad;
+$box-shadow: 0px 10px 30px 10px rgba(0, 0, 0, 0.1);
+$text-black: #000;
+$get-paid-head: #529795;
+$div-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1);
+$filter-main-clr: #535a65;
+$fiver-clr: #1dbf73;
+$zoken-bg: #0188cc;
+$header-fonts: "Roboto Slab",
+serif;
+// sass mixins
+@mixin important_text {
+    font-family: $montserat;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: $text-black;
+    margin-bottom: 20px;
+}
+
+@mixin nav-link-rule {
+    font-family: $montserat;
+    color: #24355a;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 15px;
+    transition: $transition;
+    position: relative;
+    &::before {
+        position: absolute;
+        content: "";
+        width: 0%;
+        height: 5px;
+        background-color: $primary;
+        top: 100%;
+        transition: $transition;
+    }
+    &:hover {
+        transition: $transition;
+        &::before {
+            width: 100%;
+        }
+    }
+}

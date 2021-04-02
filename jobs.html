@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>find Jobs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 , user-scalable=no" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body onload="loader();">
+    <div id="loading-screen" class="top"></div>
+    <div class="wrapper">
+        <!-- logo -->
+        <section class="logo-section help-header">
+            <div class="container custom-container">
+                <div class="position-absolute abs-pos">
+                    <nav class="navbar navbar-expand-lg bg-black p-0">
+                        <div class="logo-div">
+                            <a class="navbar-brand" href="dashboard.html">
+                                <img src="images/footer-logo.png" alt="logo" class="img-fluid" />
+                            </a>
+                        </div>
+                        <button class="navbar-toggler h-and-s-btn" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                                <i class="fas fa-bars"></i>
+                            </button>
+                        <div class="collapse navbar-collapse h-and-s-ul-container" id="collapsibleNavbar">
+                            <div class="w-100 position-relative relative-pos mt-responsive">
+                                <ul class="navbar-nav ml-auto custom-ul responsive-main-menu help-and-support-nav">
+                                    <li class="nav-item position-relative start-business-list dropdown">
+                                        <a href="#" class="nav-link dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown">START YOUR BUSINESS <i class="fa fa-chevron-down"></i></a>
+                                        <div class="hel-footer-ul-container top-dropdown dropdown-menu">
+                                            <ul class="help-footer-ul">
+                                                <li class="help-footer-list-item">
+                                                    <a href="#" class="help-footer-link">
+                                                            business inspiration
+                                                        </a>
+                                                </li>
+                                                <li class="help-footer-list-item">
+                                                    <a href="#" class="help-footer-link">
+                                                            Fund Your Business
+                                                        </a>
+                                                </li>
+                                                <li class="help-footer-list-item">
+                                                    <a href="#" class="help-footer-link">
+                                                            Market Research
+                                                        </a>
+                                                </li>
+                                                <li class="help-footer-list-item">
+                                                    <a href="#" class="help-footer-link">
+                                                            Validate Your Business Idea
+                                                        </a>
+                                                </li>
+                                                <li class="help-footer-list-item">
+                                                    <a href="#" class="help-footer-link">
+                                                            Success Sto ries
+                                                        </a>
+                                                </li>
+
+                                                <li class="help-footer-list-item">
+                                                    <a href="#" class="help-footer-link">
+                                                            Logo Design
+                                                        </a>
+                                                </li>
+                                                <li class="help-footer-list-item">
+                                                    <a href="#" class="help-footer-link">
+                                                            Logo Maker
+                                                        </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item position-relative promote-business dropdown">
+                                        <a href="#" class="nav-link dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown">PROMOTE YOUR BUSINESS <i class="fa fa-chevron-down"></i></a>
+                                        <div class="hel-footer-ul-container promote-dropdown dropdown-menu">
+                                            <ul class="help-footer-ul">
+                                                <li class="help-footer-list-item">
+                                                    <a href="#" class="help-footer-link">
+                                                            Content Marketing
+                                                        </a>
+                                                </li>
+                                                <li class="help-footer-list-item">
+                                                    <a href="#" class="help-footer-link">
+                                                            Digital Marketing
+                                                        </a>
+                                                </li>
+                                                <li class="help-footer-list-item">
+                                                    <a href="#" class="help-footer-link">
+                                                            Sales & Advertising
+                                                        </a>
+                                                </li>
+                                                <li class="help-footer-list-item">
+                                                    <a href="#" class="help-footer-link">
+                                                            Social Media
+                                                        </a>
+                                                </li>
+                                                <li class="help-footer-list-item">
+                                                    <a href="#" class="help-footer-link">
+                                                            Video Marketing
+                                                        </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item position-relative scale-business dropdown">
+                                        <a href="#" class="nav-link dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown">Scale YOUR BUSINESS <i class="fa fa-chevron-down"></i></a>
+                                        <div class="hel-footer-ul-container scale-dropdown dropdown-menu">
+                                            <ul class="help-footer-ul">
+                                                <li class="help-footer-list-item">
+                                                    <a href="#" class="help-footer-link">
+                                                            Creative Solutions
+                                                        </a>
+                                                </li>
+                                                <li class="help-footer-list-item">
+                                                    <a href="#" class="help-footer-link">
+                                                            Customer Retention
+                                                        </a>
+                                                </li>
+                                                <li class="help-footer-list-item">
+                                                    <a href="#" class="help-footer-link">
+                                                            Programming & Tech
+                                                        </a>
+                                                </li>
+                                                <li class="help-footer-list-item">
+                                                    <a href="#" class="help-footer-link">
+                                                            Tips for Entreprenuers
+                                                        </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item position-relative dropdown">
+                                        <span class="search-icon dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown"><i class="fa fa-search"></i></span>
+                                        <form action="#" method="post" class="search-form dropdown-menu">
+                                            <input type="search" class="search-field" placeholder="search something" required />
+                                        </form>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </section>
+        <!-- /logo -->
+        <!-- breadcrumb -->
+        <section class="breadcrumb-section"></section>
+        <!-- /breadcrumb -->
+        <!-- main content -->
+        <main class="main p-50 pt-0">
+            <div class="container custom-container mt-4 mb-3">
+                <ul class="breadcrumb-list">
+                    <li class="bread-item">
+                        <a href="dashboard.html" class="bread-link active-bread-link"><i class="fas fa-home"></i></a><i class="fas fa-chevron-right bread-icon"></i>
+                    </li>
+                    <li class="bread-item"><a href="contact.html" class="bread-link">jobs</a><i class="fas fa-chevron-right bread-icon"></i></li>
+                </ul>
+            </div>
+            <div class="expert-container">
+                <div class="expert-text-container container custom-container">
+                    <div class="row">
+                        <div class="col-12 col-md-12 col-lg-6">
+                            <div class="speak-image">
+                                <img src="images//expert.jpg" alt="exert image" class="img-fluid" />
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-12 col-lg-6">
+                            <div class="speak-text job-text">
+                                <strong>
+                                        <h1 class="boost-earnings-head">
+                                            boost your earnings by driving traffic
+                                        </h1>
+                                    </strong>
+
+                                <h4 class="promote-job-text">
+                                    promote the world's largest marketplace for digital services.get paid to drive, it's that easy
+                                </h4>
+                                <div class="expert-phone d-flex justify-content-start">
+                                    <button class="earning-btn" type="button">
+                                            start earning now
+                                        </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section class="jobs-by-location my-5 py-5">
+                <div class="container custom-container">
+                    <div class="d-flex justify-content-center flex-column align-items-center">
+                        <strong>
+                                <h1 class="boost-earnings-head jobs-location-head text-center">
+                                    jobs by location
+                                </h1>
+                            </strong>
+                        <h4 class="promote-job-text text-center">
+                            promote the jobs around a specific area, local to you or across the globe
+                        </h4>
+                    </div>
+                </div>
+                <div class="container custom-container">
+                    <ul class="jobs-location-ul">
+                        <li class="jobs-location-list-item">
+                            <div class="job-card">
+                                <div class="jobs-image">
+                                    <img src="images/canada.jpg" alt="canada" class="img-fluid" />
+                                </div>
+                                <div class="jobs-card-overlay">
+                                    <a href="#" class="view-job-link">view jobs</a>
+                                    <h2 class="canada-head">canada</h2>
+                                </div>
+                            </div>
+                            <div class="job-card-text-container">
+                                <div class="d-flex align-items-center px-40">
+                                    <div class="canada-image">
+                                        <img src="images/canada-flag.png" alt="canada" class="img-fluid" />
+                                    </div>
+                                    <h2 class="jobs-in-canada-head">jobs in canada</h2>
+                                </div>
+                                <div class="py-3 pxx-4">
+                                    <div class="row">
+                                        <div class="col-12 col-md-6">
+                                            <ul class="jobs-ul-job">
+                                                <li class="jobs-list-item-job">edmonton</li>
+                                                <li class="jobs-list-item job">ottawa</li>
+                                                <li class="jobs-list-item-job">toronto</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                            <ul class="jobs-ul-job">
+                                                <li class="jobs-list-item-job">montreal</li>
+                                                <li class="jobs-list-item-job">quebec city</li>
+                                                <li class="jobs-list-item-job">victoria</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="more-location-link">more locations</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="jobs-location-list-item">
+                            <div class="job-card">
+                                <div class="jobs-image">
+                                    <img src="images/england.jpg" alt="canada" class="img-fluid" />
+                                </div>
+                                <div class="jobs-card-overlay">
+                                    <a href="#" class="view-job-link">view jobs</a>
+                                    <h2 class="canada-head">england</h2>
+                                </div>
+                            </div>
+                            <div class="job-card-text-container">
+                                <div class="d-flex align-items-center px-40">
+                                    <div class="canada-image">
+                                        <img src="images/england-flag.png" alt="england" class="img-fluid" />
+                                    </div>
+                                    <h2 class="jobs-in-canada-head text-truncate">
+                                        jobs in england
+                                    </h2>
+                                </div>
+                                <div class="py-3 pxx-4">
+                                    <div class="row">
+                                        <div class="col-12 col-md-6">
+                                            <ul class="jobs-ul-job">
+                                                <li class="jobs-list-item-job">cambridgeshire</li>
+                                                <li class="jobs-list-item-job">cumbria</li>
+                                                <li class="jobs-list-item-job">durham</li>
+                                                <li class="jobs-list-item-job">lancashire</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                            <ul class="jobs-ul-job">
+                                                <li class="jobs-list-item-job">montreal</li>
+                                                <li class="jobs-list-item-job">quebec city</li>
+                                                <li class="jobs-list-item-job">victoria</li>
+                                                <li>
+                                                    <a href="#" class="more-location-link">more locations</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="jobs-location-list-item">
+                            <div class="job-card">
+                                <div class="jobs-image">
+                                    <img src="images/germany.jpg" alt="germany" class="img-fluid" />
+                                </div>
+                                <div class="jobs-card-overlay">
+                                    <a href="#" class="view-job-link">view jobs</a>
+                                    <h2 class="canada-head">germany</h2>
+                                </div>
+                            </div>
+                            <div class="job-card-text-container">
+                                <div class="d-flex align-items-center px-40">
+                                    <div class="canada-image">
+                                        <img src="images/germany-flag.png" alt="canada" class="img-fluid" />
+                                    </div>
+                                    <h2 class="jobs-in-canada-head">jobs in germany</h2>
+                                </div>
+                                <div class="py-3 pxx-4">
+                                    <div class="row">
+                                        <div class="col-12 col-md-6">
+                                            <ul class="jobs-ul-job">
+                                                <li class="jobs-list-item-job">barlin</li>
+                                                <li class="jobs-list-item-job">dusseldrof</li>
+                                                <li class="jobs-list-item-job">lubeck</li>
+                                                <li class="jobs-list-item-job">stuttgart</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                            <ul class="jobs-ul-job">
+                                                <li class="jobs-list-item-job">cologne</li>
+                                                <li class="jobs-list-item-job">hanover</li>
+                                                <li class="jobs-list-item-job">munich</li>
+                                                <li>
+                                                    <a href="#" class="more-location-link">more locations</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="jobs-location-list-item">
+                            <div class="job-card">
+                                <div class="jobs-image">
+                                    <img src="images/ntherlands.jpg" alt="netherlands" class="img-fluid" />
+                                </div>
+                                <div class="jobs-card-overlay">
+                                    <a href="#" class="view-job-link">view jobs</a>
+                                    <h2 class="canada-head">netherlands</h2>
+                                </div>
+                            </div>
+                            <div class="job-card-text-container">
+                                <div class="d-flex align-items-center px-40">
+                                    <div class="canada-image">
+                                        <img src="images/netherlands-flag.png" alt="canada" class="img-fluid" />
+                                    </div>
+                                    <h2 class="jobs-in-canada-head">jobs in netherlands</h2>
+                                </div>
+                                <div class="py-3 pxx-4">
+                                    <div class="row">
+                                        <div class="col-12 col-md-6">
+                                            <ul class="jobs-ul-job">
+                                                <li class="jobs-list-item-job">amsterdam</li>
+                                                <li class="jobs-list-item-job">rotterdam</li>
+                                                <li>
+                                                    <a href="#" class="more-location-link">more locations</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                            <ul class="jobs-ul-job">
+                                                <li class="jobs-list-item-job">arnhem</li>
+                                                <li class="jobs-list-item-job">rozenburn</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <div class="expert-container my-5 py-5">
+                <div class="expert-text-container container custom-container">
+                    <div class="row">
+                        <div class="col-12 col-md-12 col-lg-6">
+                            <div class="speak-text">
+                                <strong>
+                                        <h1 class="expert-head">
+                                            looking to Speak to an Expert?
+                                        </h1>
+                                    </strong>
+
+                                <h4 class="in-touch-head">
+                                    Get in touch, we'll be glad to assist.
+                                </h4>
+                                <div class="expert-phone">
+                                    <a href="tel: (+44) 534-643-2544">(+44) 534-643-2544</a>
+                                    <p class="timings">mon - fri, 9.00 - 17:30</p>
+                                </div>
+                                <a href="mailto: hello@recruitment-agency.co.uk" class="mail-to-uk-link">hello@recruitment-agency.co.uk</a>
+                                <p class="clock-around">SUPPORT AROUND THE CLOCK</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-12 col-lg-6">
+                            <div class="speak-image">
+                                <img src="images//expert.jpg" alt="exert image" class="img-fluid" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- /main content -->
+        <!-- footer -->
+        <section class="help-footer-section">
+            <footer class="help-footer">
+                <div class="container custom-container div-border-bottom">
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="footer-help-container">
+                                <h2 class="footer-help-head">start your business</h2>
+                                <div class="hel-footer-ul-container">
+                                    <ul class="help-footer-ul">
+                                        <li class="help-footer-list-item">
+                                            <a href="#" class="help-footer-link">
+                                                    business inspiration
+                                                </a>
+                                        </li>
+                                        <li class="help-footer-list-item">
+                                            <a href="#" class="help-footer-link">
+                                                    Fund Your Business
+                                                </a>
+                                        </li>
+                                        <li class="help-footer-list-item">
+                                            <a href="#" class="help-footer-link">
+                                                    Market Research
+                                                </a>
+                                        </li>
+                                        <li class="help-footer-list-item">
+                                            <a href="#" class="help-footer-link">
+                                                    Validate Your Business Idea
+                                                </a>
+                                        </li>
+                                        <li class="help-footer-list-item">
+                                            <a href="#" class="help-footer-link">
+                                                    Success Sto ries
+                                                </a>
+                                        </li>
+
+                                        <li class="help-footer-list-item">
+                                            <a href="#" class="help-footer-link">
+                                                    Logo Design
+                                                </a>
+                                        </li>
+                                        <li class="help-footer-list-item">
+                                            <a href="#" class="help-footer-link">
+                                                    Logo Maker
+                                                </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="footer-help-container">
+                                <h2 class="footer-help-head">promote your business</h2>
+                                <div class="hel-footer-ul-container">
+                                    <ul class="help-footer-ul">
+                                        <li class="help-footer-list-item">
+                                            <a href="#" class="help-footer-link">
+                                                    Content Marketing
+                                                </a>
+                                        </li>
+                                        <li class="help-footer-list-item">
+                                            <a href="#" class="help-footer-link">
+                                                    Digital Marketing
+                                                </a>
+                                        </li>
+                                        <li class="help-footer-list-item">
+                                            <a href="#" class="help-footer-link">
+                                                    Sales & Advertising
+                                                </a>
+                                        </li>
+                                        <li class="help-footer-list-item">
+                                            <a href="#" class="help-footer-link">
+                                                    Social Media
+                                                </a>
+                                        </li>
+                                        <li class="help-footer-list-item">
+                                            <a href="#" class="help-footer-link">
+                                                    Video Marketing
+                                                </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="footer-help-container">
+                                <h2 class="footer-help-head">scale your business</h2>
+                                <div class="hel-footer-ul-container">
+                                    <ul class="help-footer-ul">
+                                        <li class="help-footer-list-item">
+                                            <a href="#" class="help-footer-link">
+                                                    Creative Solutions
+                                                </a>
+                                        </li>
+                                        <li class="help-footer-list-item">
+                                            <a href="#" class="help-footer-link">
+                                                    Customer Retention
+                                                </a>
+                                        </li>
+                                        <li class="help-footer-list-item">
+                                            <a href="#" class="help-footer-link">
+                                                    Programming & Tech
+                                                </a>
+                                        </li>
+                                        <li class="help-footer-list-item">
+                                            <a href="#" class="help-footer-link">
+                                                    Tips for Entreprenuers
+                                                </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container custom-container mt-5">
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-2 d-flex align-items-center">
+                            <div class="help-footer-logo">
+                                <img src="images/footer-logo.png" alt="footer" class="img-fluid" />
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-5">
+                            <h2 class="footer-help-head">about us</h2>
+                            <div class="help-footer-para-container">
+                                <p class="help-footer-para">
+                                    This is a place for doers - lean entrepreneurs - who dont stop til theyVe outwitted and outworked everyone else. Whether you're scaling up your small business or building a brand from scratch, we've got the resources you need to keep you informed and
+                                    at the top of your game. C
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <h2 class="footer-help-head">follow us</h2>
+                            <ul class="help-social-footer-ul">
+                                <li class="help-social-list-item">
+                                    <a href="https://www.facebook.com/" class="help-social-link" target="_blank">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li class="help-social-list-item">
+                                    <a href="https://twitter.com/LOGIN" class="help-social-link" target="_blank"><i class="fab fa-twitter"></i></a>
+                                </li>
+                                <li class="help-social-list-item">
+                                    <a href="https://www.youtube.com/" class="help-social-link" target="_blank"><i class="fab fa-youtube"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </section>
+        <!-- /footer -->
+        <!-- help-copyright -->
+        <div class="help-copyright">
+            <div class="container custom-container">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <p class="footer-copy-para">
+                            @ Fiverr International Limited 2010 - 2018
+                        </p>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <ul class="help-copyright-ul">
+                            <li class="help-copyright-list-item">
+                                <a href="terms&conditions.html" class="help-copyright-link" target="_blank">terms of services</a>
+                            </li>
+                            <li class="help-copyright-list-item">
+                                <a href="privacy-policy.html" class="help-copyright-link" target="_blank">privacy policy</a>
+                            </li>
+                            <li class="help-copyright-list-item">
+                                <a href="help&support.html" class="help-copyright-link" target="_blank">support</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /help-copyright -->
+        <!-- Modal sign in -->
+        <div class="modal fade sign-in-modal" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header border-0">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                    </div>
+                    <h5 class="modal-title" id="exampleModalLabel">login to hihello</h5>
+                    <div class="modal-body px-4">
+                        <form action="#" method="post" class="login-page-form">
+                            <input type="text" class="user-name-login" placeholder="email / username" required />
+                            <input type="password" class="user-pass-login" placeholder="******" required />
+                            <button type="submit" class="cont-btn">continue</button>
+                            <div class="d-flex justify-content-between align-items-center mt-4 mb-2 rsponsive-remember-me">
+                                <div class="d-flex align-items-center form-group mb-0">
+                                    <input type="checkbox" id="remember" />
+                                    <label for="remember" class="text-capitalize">remember me.</label>
+                                </div>
+                                <a href="forgot-password.html" target="_blank" class="fg-link">forgot password</a>
+                            </div>
+                            <div class="or-group"><samp></samp><span>or</span><samp></samp></div>
+                            <button type="button" class="fb-btn-link mb-2">
+                                    <span><i class="fab fa-facebook-f"></i></span>
+                                    continue with facebook
+                                </button>
+                            <button type="button" class="fb-btn-link mb-2 google-btn">
+                                    <span><img src="images/google-icon.png" alt="google image" class="img-fluid" /></span>
+                                    continue with google
+                                </button>
+                        </form>
+                    </div>
+                    <div class="modal-footer d-flex justify-content-center align-items-center border-0">
+                        <p class="not-a-member">not a member yet? <a href="#" data-toggle="modal" data-target="#sign-ip-Modal">join now</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /Modal sign in -->
+        <!-- Modal sign up -->
+        <div class="modal fade sign-in-modal" id="sign-ip-Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header border-0">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                    </div>
+                    <h5 class="modal-title" id="exampleModalLabel">join hihello</h5>
+                    <div class="modal-body px-4">
+                        <form action="#" method="post" class="login-page-form sign-up-page-form">
+                            <input type="email" class="user-name-login" placeholder="enter your email" required />
+                            <button type="submit" class="cont-btn next-btn-cont">continue</button>
+                            <div class="or-group"><samp></samp><span>or</span><samp></samp></div>
+                            <button type="button" class="fb-btn-link mb-2">
+                                    <span><i class="fab fa-facebook-f"></i></span>
+                                    continue with facebook
+                                </button>
+                            <button type="button" class="fb-btn-link mb-2 google-btn">
+                                    <span><img src="images/google-icon.png" alt="google image" class="img-fluid" /></span>
+                                    continue with google
+                                </button>
+                        </form>
+                        <form action="#" method="post" class="login-page-form sign-up-modal-box">
+                            <input type="text" class="user-name-login" placeholder="choose a username" required />
+                            <input type="password" class="user-pass-login" placeholder="******" required />
+                            <p class="instruction">
+                                8 characters or longer. Combine upper and lowercase letters and numbers.
+                            </p>
+                            <button type="submit" class="cont-btn">join</button>
+                            <div class="max-width text-center mx-auto">
+                                <p class="joining-para">By joining, you agree to Fiverr’s <a href="terms&conditions.html" target="_blank">Terms of Service</a>, as well as to receive occasional emails from us.</p>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer d-flex justify-content-center align-items-center border-0">
+                        <p class="not-a-member">already a member? <a href="#" data-toggle="modal" data-target="#exampleModal">login</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /Modal sign up -->
+        <!-- scroll top -->
+        <div class="scrolltop">
+            <div class="scroll icon"><i class="fas fa-chevron-up"></i></div>
+        </div>
+        <!-- /scroll top -->
+    </div>
+    <!-- script files -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/main.js"></script>
+    <!-- /script files -->
+</body>
+
+</html>

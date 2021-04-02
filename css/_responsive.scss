@@ -1,0 +1,156 @@
+@media (max-width: 1500px) {
+    .working-nav .working-nav-ul .nav-item:first-child .nav-link {
+        padding-left: 20px;
+    }
+    .working-nav .working-nav-ul .nav-item:first-of-type {
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 1250px) {
+    .working-nav .working-nav-ul .nav-item .nav-link {
+        font-size: 12px;
+    }
+    .filter-div {
+        max-width: 26%;
+    }
+    .job-postal-div {
+        min-width: 71%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .label-container-section {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 1191px) {
+    .job-postal-div {
+        max-width: 70%;
+    }
+    .filter-div .seller-profile {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 1024px) {
+    .filter-div {
+        max-width: 28%;
+    }
+    .customers.d-flex {
+        justify-content: start !important;
+        .label-container-section {
+            margin: 20px;
+        }
+    }
+    .filter-div .bottom-data .bottom-data-head-clr {
+        font-size: 14px;
+    }
+    .filter-div .filter-btn {
+        padding: 14px 20px;
+    }
+    .customers.d-flex .label-container-section {
+        min-width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 991px) {
+    .filter-div {
+        max-width: 100%;
+        width: 100%;
+    }
+    .job-postal-div {
+        max-width: 100%;
+        width: 100%;
+    }
+    .first-main-content {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 768px) {
+    .links {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .customers.d-flex {
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+    }
+    .get-paid-border.d-flex {
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+    }
+    .jobs-con.d-flex {
+        display: flex !important;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        .first-div,
+        .second-div,
+        .third-div {
+            width: 100% !important;
+            margin-bottom: 10px;
+        }
+    }
+    .main-footer {
+        .d-flex {
+            flex-wrap: wrap;
+            justify-content: flex-start;
+        }
+    }
+    .links {
+        min-width: 50%;
+    }
+    .get-paid-border.d-flex {
+        display: flex !important;
+        justify-content: flex-start !important;
+    }
+}
+
+@media (max-width: 476px) {
+    .working-nav .working-nav-ul .nav-item {
+        padding: 0 0px;
+    }
+    .links {
+        width: 100%;
+    }
+    .jobs-con {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 425px) {
+    .get-paid-div .head-width .get-paid-head-two {
+        font-size: 20px;
+    }
+    .recently-added-head {
+        font-size: 21px;
+    }
+}
+
+@media (max-width: 320px) {
+    .breadcrumb-section .selector-btn {
+        padding: 10px 40px;
+    }
+    .filter-div,
+    .job-postal-div {
+        padding: 10px;
+    }
+    .recent-jobs-container.d-flex {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+    .arrows {
+        top: -35px;
+    }
+    .copyright-text {
+        text-align: center;
+    }
+}
